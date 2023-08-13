@@ -29,4 +29,27 @@ export namespace DeBank {
     tag_ids: string[];
     tvl: number;
   }
+
+  export interface PoolParams {
+    start?: number;
+    limit?: number;
+    id: string;
+    name?: string;
+  }
+
+  export interface Pool {
+    adapter_id: string;
+    chain: string;
+    controller: string;
+    id: string;
+    index: string | null;
+    name: string;
+    project_id: string;
+    stats: Record<string, any>;
+  }
+
+  export type PoolResponse = Data<{
+    pools: Pool[];
+    total_count: number;
+  }>;
 }

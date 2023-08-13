@@ -19,4 +19,25 @@ export class DebankAdapter {
 
     return data.data.protocols;
   }
+
+  public static async getPools({
+    start = 0,
+    limit = 20,
+    name = '',
+    id,
+  }: DeBank.PoolParams) {
+    const { data } = await axios.get<DeBank.PoolResponse>(
+      'https://api.debank.com/protocol/pools',
+      {
+        params: {
+          start,
+          limit,
+          name,
+          id,
+        },
+      },
+    );
+
+    return data.data.pools;
+  }
 }
