@@ -1,7 +1,7 @@
 import { DeBank } from '@/definitions/debank';
 import axios from 'axios';
 
-export class DebankAdapater {
+export class DebankAdapter {
   public static async getProtocolList(): Promise<DeBank.Protocol> {
     const { data } = await axios.get<DeBank.ProtocolResponse>(
       'https://api.debank.com/protocol/list',

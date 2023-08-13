@@ -25,7 +25,7 @@ export namespace DeBank {
     platform_token_id: string;
     platform_token_symbol: string;
     site_url: string;
-    stats: object;
+    stats: Record<string, any>;
     tag_ids: string[];
     tvl: number;
   }
