@@ -1,45 +1,53 @@
 import { DataTypes, ModelDefined } from 'sequelize';
 import { sequelize } from '../sequelize';
 
-export interface ProtocolAttributes {
-  id: string;
+export interface PoolAttributes {
+  adapterId: string;
   chain: string;
-  logo: string;
-  siteUrl: string;
-  poolStats: object;
-  tagIds: string[];
+  controller: string;
+  id: string;
+  index: string;
+  name: string;
+  projectId: string;
+  stats: Record<string, any>;
   raw: object;
 }
 
-export const Protocol: ModelDefined<ProtocolAttributes, ProtocolAttributes> =
+export const Pool: ModelDefined<PoolAttributes, PoolAttributes> =
   sequelize.define(
-    'Protocol',
+    'Pool',
     {
-      id: {
+      adapterId: {
         type: DataTypes.STRING,
-        primaryKey: true,
       },
       chain: {
         type: DataTypes.STRING,
       },
-      logo: {
+      controller: {
         type: DataTypes.STRING,
       },
-      siteUrl: {
+      id: {
+        type: DataTypes.STRING,
+        primaryKey: true,
+      },
+      index: {
         type: DataTypes.STRING,
       },
-      poolStats: {
+      name: {
+        type: DataTypes.STRING,
+      },
+      projectId: {
+        type: DataTypes.STRING,
+      },
+      stats: {
         type: DataTypes.JSONB,
-      },
-      tagIds: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
       },
       raw: {
         type: DataTypes.JSONB,
       },
     },
     {
-      tableName: 'protocol',
+      tableName: 'pool',
       underscored: true,
       createdAt: false,
       updatedAt: false,
