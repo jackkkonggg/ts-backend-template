@@ -20,24 +20,43 @@ export class DebankAdapter {
     return data.data.protocols;
   }
 
-  public static async getPools({
-    start = 0,
-    limit = 20,
-    name = '',
-    id,
-  }: DeBank.PoolParams) {
-    const { data } = await axios.get<DeBank.PoolResponse>(
+  public static async getPools(id: string) {
+    const limit = 20;
+    const pools: DeBank.Pool[] = [];
+    const {
+      data: { data },
+    } = await axios.get<DeBank.PoolResponse>(
       'https://api.debank.com/protocol/pools',
       {
         params: {
-          start,
+          start: 0,
           limit,
-          name,
+          name: '',
           id,
         },
       },
     );
+    pools.push(...data.pools);
 
-    return data.data.pools;
+    const pages = Math.min(10, Math.ceil(data.total_count / limit));
+    for (let i = 1; i < pages; ++i) {
+      const {
+        data: { data },
+      } = await axios.get<DeBank.PoolResponse>(
+        'https://api.debank.com/protocol/pools',
+        {
+          params: {
+            start: i * limit,
+            limit,
+            name: '',
+            id,
+          },
+        },
+      );
+      console.log(`${id} - Page ${i}`);
+      pools.push(...data.pools);
+    }
+
+    return pools;
   }
 }

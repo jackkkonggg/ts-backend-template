@@ -7,7 +7,7 @@ export interface PoolAttributes {
   controller: string;
   id: string;
   index: string;
-  name: string;
+  investmentType: string;
   projectId: string;
   stats: Record<string, any>;
   raw: object;
@@ -33,7 +33,7 @@ export const Pool: ModelDefined<PoolAttributes, PoolAttributes> =
       index: {
         type: DataTypes.STRING,
       },
-      name: {
+      investmentType: {
         type: DataTypes.STRING,
       },
       projectId: {
