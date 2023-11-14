@@ -1,9 +1,8 @@
 export const curveChains = {
   1: 'ethereum',
-  10: 'optimistic-ethereum',
-  56: 'binance-smart-chain',
+  10: 'optimism',
   100: 'xdai',
-  137: 'polygon-pos',
+  137: 'polygon',
   250: 'fantom',
   324: 'zksync',
   1284: 'moonbeam',
@@ -11,7 +10,7 @@ export const curveChains = {
   8453: 'base',
   42220: 'celo',
   43114: 'avalanche',
-  42161: 'arbitrum-one',
+  42161: 'arbitrum',
   1313161554: 'aurora',
 } as Record<string, string>;
 
