@@ -1,3 +1,4 @@
+import { GaugeData } from './gauge-data';
 import { PoolData } from './pool-data';
 
 export interface ApiResponse<T> {
@@ -11,3 +12,5 @@ export type CurvePoolResponse = ApiResponse<{
   tvl: number;
   tvlAll: number;
 }>;
+
+export type CurveGaugeResponse = ApiResponse<Record<string, GaugeData>>;

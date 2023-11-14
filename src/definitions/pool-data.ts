@@ -33,7 +33,7 @@ export interface PoolData extends Partial<GaugeData> {
   isBroken: boolean;
 }
 
-export interface GaugeData {
+interface GaugeData {
   gaugeAddress: string;
   gaugeRewards: {
     gaugeAddress: string;
