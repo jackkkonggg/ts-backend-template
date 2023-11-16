@@ -6,5 +6,7 @@
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
-  }
+  },
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2
 }
