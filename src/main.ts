@@ -1,7 +1,7 @@
-import { getCommonChains } from '@/definitions/blockchains';
-import { convertPoolData } from '@/lib/utils/convert-pool-data';
 import axios from 'axios';
+import { getCommonChains } from '@/definitions/blockchains';
 import { CurveGaugeResponse, CurvePoolResponse } from '@/definitions/curve';
+import { convertPoolData } from '@/lib/utils/convert-pool-data';
 import { formatEnum } from '@/lib/utils/format-enum';
 
 async function main(chainId: number) {
