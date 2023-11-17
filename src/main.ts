@@ -1,8 +1,10 @@
 import { OpenOrders } from '@project-serum/serum';
 import { TokenAccount, SPL_ACCOUNT_LAYOUT, LIQUIDITY_STATE_LAYOUT_V4 } from '@raydium-io/raydium-sdk';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import { TokenListProvider, TokenInfo, ENV } from '@solana/spl-token-registry';
 import { Connection, PublicKey } from '@solana/web3.js';
 import BN from 'bn.js';
+import { keyBy } from 'lodash';
 
 async function getTokenAccounts(connection: Connection, owner: PublicKey) {
   const tokenResp = await connection.getTokenAccountsByOwner(owner, {
@@ -61,9 +63,15 @@ export async function parsePoolInfo() {
   const denominator = new BN(10).pow(poolState.baseDecimal);
 
   const addedLpAccount = tokenAccounts.find((a) => a.accountInfo.mint.equals(poolState.lpMint));
+
+  const tokenListProvider = new TokenListProvider();
+  const tokenListContainer = await tokenListProvider.resolve();
+  const tokens = keyBy(tokenListContainer.filterByChainId(ENV.MainnetBeta).getList(), 'address');
   console.info({
     baseMint: poolState.baseMint.toBase58(),
     quoteMint: poolState.quoteMint.toBase58(),
+    baseToken: tokens[poolState.baseMint.toBase58()] ?? null,
+    quoteToken: tokens[poolState.quoteMint.toBase58()] ?? null,
     totalBase: base,
     totalQuote: quote,
     baseVaultBalance: baseTokenAmount.value.uiAmount,
