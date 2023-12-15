@@ -9,4 +9,4 @@ async function fetchTokenMetadata(address: string) {
   logAll(asset);
 }
 
-fetchTokenMetadata('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v');
+fetchTokenMetadata('BGzo1VbwHE9kSAZQ3eBkPTJmdzkD37sZGf7U5BrgzoAo');

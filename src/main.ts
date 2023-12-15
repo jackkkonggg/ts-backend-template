@@ -3,6 +3,7 @@ import { fetchDigitalAsset } from '@metaplex-foundation/mpl-token-metadata';
 import { string } from '@metaplex-foundation/umi/serializers';
 import { createUmi } from '@metaplex-foundation/umi-bundle-defaults';
 import { OpenOrders } from '@project-serum/serum';
+import { u64 } from '@project-serum/serum/lib/layout';
 import {
   TokenAccount,
   SPL_ACCOUNT_LAYOUT,
@@ -29,6 +30,7 @@ import {
   TickArrayLayout,
   ClmmPoolInfo,
   ClmmPoolPersonalPosition,
+  s32be,
 } from '@raydium-io/raydium-sdk';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import { TokenListProvider, TokenInfo, ENV } from '@solana/spl-token-registry';
@@ -88,8 +90,8 @@ export async function parsePoolInfo(poolId: string) {
   const openOrdersBaseTokenTotal = openOrders.baseTokenTotal.toString();
   const openOrdersQuoteTokenTotal = openOrders.quoteTokenTotal.toString();
 
-  const base = Number(baseTokenAmount.value.amount) + openOrdersBaseTokenTotal - basePnl;
-  const quote = Number(quoteTokenAmount.value.amount) + openOrdersQuoteTokenTotal - quotePnl;
+  const base = Number(baseTokenAmount.value.amount) + Number(openOrdersBaseTokenTotal) - Number(basePnl);
+  const quote = Number(quoteTokenAmount.value.amount) + Number(openOrdersQuoteTokenTotal) - Number(quotePnl);
 
   const addedLpAccount = tokenAccounts.find((a) => a.accountInfo.mint.equals(poolState.lpMint));
   const { data: liquidityData } = await axios.get('https://api.raydium.io/v2/sdk/liquidity/mainnet.json');
@@ -183,7 +185,7 @@ async function clmm() {
   const poolId = new PublicKey('61R1ndXxvsWXXkWSyNkCxnzwd3zUNB8Q2ibmkiLPC8ht');
   const poolInfoAccount = await connection.getAccountInfo(poolId);
   const poolInfo = PoolInfoLayout.decode(poolInfoAccount.data);
-  // logAll(poolInfo);
+  logAll(poolInfo);
   const ammConfigAccount = await connection.getAccountInfo(poolInfo.ammConfig);
   const ammConfig = AmmConfigLayout.decode(ammConfigAccount.data);
   // logAll(ammConfig);
@@ -238,18 +240,19 @@ async function clmm() {
     tickUpperState,
   );
 
-  console.info({ tokenFeeAmountA, tokenFeeAmountB, positionRewards });
+  // console.info({ tokenFeeAmountA, tokenFeeAmountB, positionRewards });
 
   const amountA = amounts.amountA.toString();
   const amountB = amounts.amountB.toString();
-  console.info({
-    amountA,
-    amountB,
-    tickLower: positionInfo.tickLower,
-    tickUpper: positionInfo.tickUpper,
-    tickLowerSqrtPriceX64: SqrtPriceMath.getSqrtPriceX64FromTick(positionInfo.tickLower).toString(),
-    tickUpperSqrtPriceX64: SqrtPriceMath.getSqrtPriceX64FromTick(positionInfo.tickUpper).toString(),
-  });
+  console.log({ span: PositionInfoLayout.span, offset: PositionInfoLayout.offsetOf('poolId') });
+  // console.info({
+  //   amountA,
+  //   amountB,
+  //   tickLower: positionInfo.tickLower,
+  //   tickUpper: positionInfo.tickUpper,
+  //   tickLowerSqrtPriceX64: SqrtPriceMath.getSqrtPriceX64FromTick(positionInfo.tickLower).toString(),
+  //   tickUpperSqrtPriceX64: SqrtPriceMath.getSqrtPriceX64FromTick(positionInfo.tickUpper).toString(),
+  // });
 }
 
 function mulRightShift(val: BN, mulBy: BN): BN {
@@ -262,9 +265,9 @@ function signedRightShift(n0: BN, shiftBy: number, bitWidth: number) {
   return twoN0.fromTwos(bitWidth - shiftBy);
 }
 
-// parsePoolInfo('5vYSdPpR3xAimtmumM37akVYKXRZ8yaTkjckRxd3WKpr');
+parsePoolInfo('5vYSdPpR3xAimtmumM37akVYKXRZ8yaTkjckRxd3WKpr');
 // parseFarmInfo('CHYrUBX2RKX8iBg7gYTkccoGNBzP44LdaazMHCLcdEgS');
-clmm();
+// clmm();
 
 const toBinary = (n: BN) => {
   return n
@@ -272,8 +275,12 @@ const toBinary = (n: BN) => {
     .map((i) => i.toString(2).padStart(8, '0'))
     .join('');
 };
-const a = new BN('18445821805675395072');
-const b = new BN('18444899583751176192');
-console.log(a.mul(b).toTwos(256).shrn(64).toString(2));
-console.log(new BN('193').toString(2));
-console.log(a.mul(b).toTwos(256).shrn(64).maskn(193).toString(2));
+
+// const a = new BN('18445821805675395072');
+// const b = new BN('18444899583751176192');
+// console.log(a.mul(b).toTwos(256).shrn(64).toString(2));
+// console.log(new BN('193').toString(2));
+// console.log(a.mul(b).toTwos(256).shrn(64).maskn(193).toString(2));
+
+// console.log(string().serialize('Raydium Concentrated Liquidity'));
+// console.log(new BN('1').div(new BN('2')));
