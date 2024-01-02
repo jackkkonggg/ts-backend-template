@@ -265,9 +265,19 @@ function signedRightShift(n0: BN, shiftBy: number, bitWidth: number) {
   return twoN0.fromTwos(bitWidth - shiftBy);
 }
 
-parsePoolInfo('5vYSdPpR3xAimtmumM37akVYKXRZ8yaTkjckRxd3WKpr');
+// parsePoolInfo('5vYSdPpR3xAimtmumM37akVYKXRZ8yaTkjckRxd3WKpr');
 // parseFarmInfo('CHYrUBX2RKX8iBg7gYTkccoGNBzP44LdaazMHCLcdEgS');
 // clmm();
+
+console.log(
+  LiquidityMath.getAmountsFromLiquidity(
+    new BN('5415457408296614735'),
+    new BN('-27879'),
+    new BN('-21149'),
+    new BN('1000000000000000000'),
+    false,
+  ),
+);
 
 const toBinary = (n: BN) => {
   return n
