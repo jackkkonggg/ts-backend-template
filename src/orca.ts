@@ -55,8 +55,8 @@ async function main() {
     ctx.wallet.publicKey,
   );
 
-  tx.addSigner(wallet);
+  // tx.addSigner(wallet);
 
-  const hash = await tx.buildAndExecute();
-  console.log('PositionMint: ', positionMint.toString(), 'Hash: ', hash);
+  // const hash = await tx.buildAndExecute();
+  // console.log('PositionMint: ', positionMint.toString(), 'Hash: ', hash);
 }
