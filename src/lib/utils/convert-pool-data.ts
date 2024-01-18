@@ -7,3 +7,15 @@ export function convertPoolData(pd: PoolData): OKXPoolData {
     gauge: (pd.gaugeAddress ?? '').toLowerCase(),
   };
 }
+
+export function convertPoolDataV2(chain: string, chainId: number, pd: PoolData) {
+  return {
+    chain,
+    chainId,
+    id: pd.id,
+    pool: pd.address.toLowerCase(),
+    lpTokenAddress: pd.lpTokenAddress.toLowerCase(),
+    type: pd.poolType,
+    gauge: (pd.gaugeAddress ?? '').toLowerCase(),
+  };
+}

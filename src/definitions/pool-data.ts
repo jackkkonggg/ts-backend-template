@@ -31,6 +31,7 @@ export interface PoolData extends Partial<GaugeData> {
   usdTotalExcludingBasePool: number;
   usesRateOracle: boolean;
   isBroken: boolean;
+  poolType: string;
 }
 
 interface GaugeData {
