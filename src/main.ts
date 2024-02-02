@@ -1,5 +1,7 @@
+import { logAll } from '@/lib/utils/log-all';
+
 async function main() {
-  console.log('main');
+  logAll('main');
 }
 
 main();
