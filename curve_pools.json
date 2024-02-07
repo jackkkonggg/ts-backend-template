@@ -3935,6 +3935,15 @@
     {
         "chain": "ethereum",
         "chainId": 1,
+        "id": "factory-v2-379",
+        "pool": "0x9547429c0e2c3a8b88c6833b58fce962734c0e8c",
+        "lpTokenAddress": "0x9547429c0e2c3a8b88c6833b58fce962734c0e8c",
+        "type": "factory-stable",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
         "id": "factory-crvusd-0",
         "pool": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
         "lpTokenAddress": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
@@ -7454,6 +7463,51 @@
     {
         "chain": "ethereum",
         "chainId": 1,
+        "id": "factory-crypto-362",
+        "pool": "0xa7b0e924c2dbb9b4f576cce96ac80657e42c3e42",
+        "lpTokenAddress": "0x421e13b4e805993a0d50ad8c6c47a4f693f04424",
+        "type": "factory-crypto",
+        "gauge": "0x8a111b47b31bba40c2f0d2f9a8cf6b6c4b50114e"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-crypto-363",
+        "pool": "0xc000cabd8d5151cc15a47e5f093835af7b81d404",
+        "lpTokenAddress": "0xf91688378fb67af510cee0f5d830af3e41398a59",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-crypto-364",
+        "pool": "0x71db3764d6841d8b01dc27c0fd4a66a8a34b2be0",
+        "lpTokenAddress": "0x6ade6971ca3d90990c30d39c78b0534c7166e07b",
+        "type": "factory-crypto",
+        "gauge": "0x49865b21d1482377b14e9be112f029edacf56fb4"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-crypto-365",
+        "pool": "0x6c9fe53cc13b125d6476e5ce2b76983bd5b7a112",
+        "lpTokenAddress": "0x94c4eba4f4b97be8d758f8c27027d656270e87a6",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-crypto-366",
+        "pool": "0x23c90b0dd38572311f0ad826f0b49740a44f1239",
+        "lpTokenAddress": "0xe9245a9eff6282d95ec885e29c77ad1ae557ade6",
+        "type": "factory-crypto",
+        "gauge": "0xd61c417df610531fb507e2da32c7f74c2a81f203"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
         "id": "factory-tricrypto-0",
         "pool": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
         "lpTokenAddress": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
@@ -7756,6 +7810,15 @@
         "lpTokenAddress": "0xe789587c77bc967b1dd63429be983fc8eb17fc89",
         "type": "factory-tricrypto",
         "gauge": "0x3e8ff758c82b848f11054214df0e3ad8ec1c7a6c"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-tricrypto-34",
+        "pool": "0xbed58c1053fd347843883eade0781f562a66f623",
+        "lpTokenAddress": "0xbed58c1053fd347843883eade0781f562a66f623",
+        "type": "factory-tricrypto",
+        "gauge": "0xea63247e831f870160896a29f5240efd7eee44a5"
     },
     {
         "chain": "ethereum",
@@ -8530,6 +8593,33 @@
         "lpTokenAddress": "0xe4f00da633c6aa958e851469bdf179950502691d",
         "type": "factory-stable-ng",
         "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-86",
+        "pool": "0xb66d28a1683ba02d63282beecc35dc54b65fb1b0",
+        "lpTokenAddress": "0xb66d28a1683ba02d63282beecc35dc54b65fb1b0",
+        "type": "factory-stable-ng",
+        "gauge": "0xc68d8c4af88e2ee2f4b8bc5ec3fedd061afc2344"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-87",
+        "pool": "0xeac874aed7761460dd4c89778ba6db7d320911a8",
+        "lpTokenAddress": "0xeac874aed7761460dd4c89778ba6db7d320911a8",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-88",
+        "pool": "0x2482dfb5a65d901d137742ab1095f26374509352",
+        "lpTokenAddress": "0x2482dfb5a65d901d137742ab1095f26374509352",
+        "type": "factory-stable-ng",
+        "gauge": "0x1b0e9f245f08dbfc80bc4119746c190b867dd837"
     },
     {
         "chain": "avalanche",
@@ -17318,6 +17408,33 @@
     {
         "chain": "polygon",
         "chainId": 137,
+        "id": "factory-crypto-349",
+        "pool": "0xc65f0d49cf858e08697a8a2936a164d0151500b8",
+        "lpTokenAddress": "0x5bf3efd9818e9fcb96fc15e9bec29cfac2ac62f7",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-crypto-350",
+        "pool": "0x0f2157ec36de20ca2ea7f0313c0bc042a5893c68",
+        "lpTokenAddress": "0x9e1017c021f4a8da647c7579152b03cb7dfc3570",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-crypto-351",
+        "pool": "0x0bb1dc9cf23a1d677c91832f1aa3338e97b2c1a5",
+        "lpTokenAddress": "0x5afc4dc942c52c2f78d9bacf788df7dc04e90a4f",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
         "id": "factory-stable-ng-0",
         "pool": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
         "lpTokenAddress": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
@@ -17555,6 +17672,60 @@
         "id": "factory-stable-ng-26",
         "pool": "0x7b2189fb0e0c94c47836c2361a8c1b5edfacdd59",
         "lpTokenAddress": "0x7b2189fb0e0c94c47836c2361a8c1b5edfacdd59",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-27",
+        "pool": "0x5225010a0ae133b357861782b0b865a48471b2c5",
+        "lpTokenAddress": "0x5225010a0ae133b357861782b0b865a48471b2c5",
+        "type": "factory-stable-ng",
+        "gauge": "0x63a4f929b93a8859098622de821159695a55030a"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-28",
+        "pool": "0xa70af99bff6b168327f9d1480e29173e757c7904",
+        "lpTokenAddress": "0xa70af99bff6b168327f9d1480e29173e757c7904",
+        "type": "factory-stable-ng",
+        "gauge": "0x30831d8c8480d106a6f043356a2bed652c98e44b"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-29",
+        "pool": "0x62c949ee985b125ff2d7ddcf4fe7aecb0a040e2a",
+        "lpTokenAddress": "0x62c949ee985b125ff2d7ddcf4fe7aecb0a040e2a",
+        "type": "factory-stable-ng",
+        "gauge": "0x360dd7ba9e0811c2168dad495fb393977a3eaba5"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-30",
+        "pool": "0x864490cf55dc2dee3f0ca4d06f5f80b2bb154a03",
+        "lpTokenAddress": "0x864490cf55dc2dee3f0ca4d06f5f80b2bb154a03",
+        "type": "factory-stable-ng",
+        "gauge": "0x6a9d992c456e65d3b55203b71137c37de054d149"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-31",
+        "pool": "0xa9d7d3d7e68a0cae89fb33c736199172f405c8d3",
+        "lpTokenAddress": "0xa9d7d3d7e68a0cae89fb33c736199172f405c8d3",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-32",
+        "pool": "0x50b20884eaeccb4ee00872fa51c49e196f1f8ab5",
+        "lpTokenAddress": "0x50b20884eaeccb4ee00872fa51c49e196f1f8ab5",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -18473,6 +18644,24 @@
         "id": "factory-stable-ng-8",
         "pool": "0x8d674a6a791c7a760e8c5a283d3d93776d0dd293",
         "lpTokenAddress": "0x8d674a6a791c7a760e8c5a283d3d93776d0dd293",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-9",
+        "pool": "0x000a74ec65e33154bc859d23c497376d386f5a2d",
+        "lpTokenAddress": "0x000a74ec65e33154bc859d23c497376d386f5a2d",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-10",
+        "pool": "0x34de948b2a1499474819f83751115e2f517bb838",
+        "lpTokenAddress": "0x34de948b2a1499474819f83751115e2f517bb838",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -22097,6 +22286,15 @@
     {
         "chain": "arbitrum",
         "chainId": 42161,
+        "id": "factory-tricrypto-19",
+        "pool": "0xc16b7ad017491bab1278e614c118368efa4e1170",
+        "lpTokenAddress": "0xc16b7ad017491bab1278e614c118368efa4e1170",
+        "type": "factory-tricrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
         "id": "factory-stable-ng-0",
         "pool": "0x73af1150f265419ef8a5db41908b700c32d49135",
         "lpTokenAddress": "0x73af1150f265419ef8a5db41908b700c32d49135",
@@ -22334,6 +22532,15 @@
         "id": "factory-stable-ng-26",
         "pool": "0xdc40d14accd5629bbfa65d057f175871628d13c7",
         "lpTokenAddress": "0xdc40d14accd5629bbfa65d057f175871628d13c7",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-27",
+        "pool": "0xaa41227f10389569581679c48fe3ea72433e863f",
+        "lpTokenAddress": "0xaa41227f10389569581679c48fe3ea72433e863f",
         "type": "factory-stable-ng",
         "gauge": ""
     },
