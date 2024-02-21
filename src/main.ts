@@ -1,7 +1,7 @@
+import { TransactionBlock } from '@mysten/sui.js';
 import { getFullnodeUrl, SuiClient } from '@mysten/sui.js/client';
-import { TransactionBlock } from '@mysten/sui.js/transactions';
 
-const suiClient = new SuiClient({ url: getFullnodeUrl('mainnet') });
+const suiClient = new SuiClient({ url: 'https://rpc-mainnet.suiscan.xyz:443' });
 
 async function main() {
   const package_id = '0x11ea791d82b5742cc8cab0bf7946035c97d9001d7c3803a93f119753da66f526';
