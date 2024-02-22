@@ -19,3 +19,13 @@ export function convertPoolDataV2(chain: string, chainId: number, pd: PoolData) 
     gauge: (pd.gaugeAddress ?? '').toLowerCase(),
   };
 }
+
+export type TargetPoolData = {
+  chain: string;
+  chainId: number;
+  id: string;
+  pool: string;
+  lpTokenAddress: string;
+  type: string;
+  gauge: string;
+};

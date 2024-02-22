@@ -1,5 +1,5 @@
 import { getCommonChains } from '@/definitions/blockchains';
-import { convertPoolDataV2 } from '@/lib/utils/convert-pool-data';
+import { TargetPoolData, convertPoolDataV2 } from '@/lib/utils/convert-pool-data';
 import axios from 'axios';
 import {
   CurveGaugeResponse,
@@ -33,7 +33,7 @@ async function processFactoryData() {
 // processFactoryData();
 
 async function processPool(chainIds: number[]) {
-  const convertedPoolData = [];
+  const convertedPoolData: TargetPoolData[] = [];
   for (const chainId of chainIds) {
     const [curveId, okxId] = getCommonChains()[chainId];
     const apiPaths = Object.values(poolTypeMap);
@@ -83,7 +83,28 @@ async function processPool(chainIds: number[]) {
     }
   }
 
-  await writeFile('curve_pools.json', JSON.stringify(convertedPoolData, null, 4));
+  const filteredPoolData: TargetPoolData[] = [];
+  const keys = new Set<string>();
+  for (const poolData of convertedPoolData) {
+    const key = `${poolData.chainId}-${poolData.pool}`;
+    if (keys.has(key)) {
+      const index = filteredPoolData.findIndex((p) => p.chainId === poolData.chainId && p.pool === poolData.pool);
+      console.log({
+        existing: filteredPoolData[index],
+        current: poolData,
+        replace: filteredPoolData[index].gauge == '',
+      });
+      if (filteredPoolData[index].gauge == '') {
+        filteredPoolData.splice(index, 1);
+        filteredPoolData.push(poolData);
+      }
+    } else {
+      filteredPoolData.push(poolData);
+      keys.add(key);
+    }
+  }
+
+  await writeFile('curve_pools.json', JSON.stringify(filteredPoolData, null, 4));
 
   // for (const pd of convertedPoolData) {
   //   const formatted = `${`${curveId.toUpperCase()}_${pd.id
