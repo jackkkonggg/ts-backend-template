@@ -1,36 +1,14 @@
-import { getCommonChains } from '@/definitions/blockchains';
+import { curveChains, getCommonChains } from '@/definitions/blockchains';
 import { TargetPoolData, convertPoolDataV2 } from '@/lib/utils/convert-pool-data';
 import axios from 'axios';
 import {
   CurveGaugeResponse,
   CurvePoolResponse,
   GetVolumeResponse as GetSubgraphResponse,
-  poolFactoryKeyMap,
   poolTypeMap,
 } from '@/definitions/curve';
-import factoryData from './factory_data.json';
-import { toEnumCase } from './lib/utils/case-format';
 import { writeFile } from 'fs/promises';
 
-async function processFactoryData() {
-  console.log(Object.keys(poolFactoryKeyMap));
-  Object.entries(factoryData).forEach(([key, value]) => {
-    // console.log(key);
-    // console.log(value);
-    console.log(`
-    ${key}(BlockChain.${key}, new HashMap<String, PoolType>(){{
-        ${Object.keys(poolFactoryKeyMap)
-          .map((factoryType) => {
-            const pool: string = value[poolFactoryKeyMap[factoryType]] ?? '0x0000000000000000000000000000000000000000';
-            return `put("${pool.toLowerCase()}", PoolType.${toEnumCase(factoryType)});`;
-          })
-          .join('\n        ')}
-    }}),
-    `);
-  });
-}
-
-// processFactoryData();
 
 async function processPool(chainIds: number[]) {
   const convertedPoolData: TargetPoolData[] = [];
@@ -69,18 +47,30 @@ async function processPool(chainIds: number[]) {
   }
   // console.log(convertedPoolData);
 
+  console.log(convertedPoolData.filter((c) => c.chain === 'fantom' && c.pool === '0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604'));
+
   const {
     data: { data: gaugeData },
   } = await axios.get<CurveGaugeResponse>('https://api.curve.fi/api/getAllGauges');
   for (const gd of Object.values(gaugeData)) {
+    const poolUrls = [gd.poolUrls.swap, gd.poolUrls.deposit, gd.poolUrls.withdraw].flat();
+    const chain = Object.entries(curveChains).find(([key, value]) => {
+      return poolUrls.some(url => url.includes(value))
+    })?.[1] ?? null;
+
     const index = convertedPoolData.findIndex(
-      (pd) => pd.pool === gd.swap.toLowerCase() && pd.lpTokenAddress === gd.swap_token.toLowerCase(),
+      (pd) => pd.pool === gd.swap.toLowerCase() && pd.lpTokenAddress === gd.swap_token.toLowerCase() && pd.chain === chain
     );
-    if (index > 0 && convertedPoolData[index].gauge === '') {
+
+    if (index >= 0) {
       const pd = convertedPoolData[index];
       console.debug(`Adjusting Gauge at id=${pd.id} pool=${gd.swap} lpTokenAddress=${gd.swap_token} gauge=${gd.gauge}`);
       convertedPoolData[index].gauge = gd.gauge.toLowerCase();
     }
+    //  else if (index >= 0 && convertedPoolData[index].gauge !== '') {
+    //   const pd = convertedPoolData[index];
+    //   console.debug(`Pool with 2 gauges at id=${pd.id} pool=${gd.swap} lpTokenAddress=${gd.swap_token} gaugeA=${gd.gauge} guageB=${convertedPoolData[index].gauge}`)
+    // }
   }
 
   const filteredPoolData: TargetPoolData[] = [];
@@ -89,11 +79,11 @@ async function processPool(chainIds: number[]) {
     const key = `${poolData.chainId}-${poolData.pool}`;
     if (keys.has(key)) {
       const index = filteredPoolData.findIndex((p) => p.chainId === poolData.chainId && p.pool === poolData.pool);
-      console.log({
-        existing: filteredPoolData[index],
-        current: poolData,
-        replace: filteredPoolData[index].gauge == '',
-      });
+      // console.log({
+      //   existing: filteredPoolData[index],
+      //   current: poolData,
+      //   replace: filteredPoolData[index].gauge == '',
+      // });
       if (filteredPoolData[index].gauge == '') {
         filteredPoolData.splice(index, 1);
         filteredPoolData.push(poolData);
