@@ -9,7 +9,6 @@ import {
 } from '@/definitions/curve';
 import { writeFile } from 'fs/promises';
 
-
 async function processPool(chainIds: number[]) {
   const convertedPoolData: TargetPoolData[] = [];
   for (const chainId of chainIds) {
@@ -47,19 +46,23 @@ async function processPool(chainIds: number[]) {
   }
   // console.log(convertedPoolData);
 
-  console.log(convertedPoolData.filter((c) => c.chain === 'fantom' && c.pool === '0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604'));
+  console.log(
+    convertedPoolData.filter((c) => c.chain === 'fantom' && c.pool === '0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604'),
+  );
 
   const {
     data: { data: gaugeData },
   } = await axios.get<CurveGaugeResponse>('https://api.curve.fi/api/getAllGauges');
   for (const gd of Object.values(gaugeData)) {
     const poolUrls = [gd.poolUrls.swap, gd.poolUrls.deposit, gd.poolUrls.withdraw].flat();
-    const chain = Object.entries(curveChains).find(([key, value]) => {
-      return poolUrls.some(url => url.includes(value))
-    })?.[1] ?? null;
+    const chain =
+      Object.entries(curveChains).find(([key, value]) => {
+        return poolUrls.some((url) => url.includes(value));
+      })?.[1] ?? null;
 
     const index = convertedPoolData.findIndex(
-      (pd) => pd.pool === gd.swap.toLowerCase() && pd.lpTokenAddress === gd.swap_token.toLowerCase() && pd.chain === chain
+      (pd) =>
+        pd.pool === gd.swap.toLowerCase() && pd.lpTokenAddress === gd.swap_token.toLowerCase() && pd.chain === chain,
     );
 
     if (index >= 0) {
