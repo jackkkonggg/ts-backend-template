@@ -18,7 +18,7 @@ const driftClient = new DriftClient({
 });
 
 async function main() {
-  const marketIndex = 2;
+  const marketIndex = 0;
   const pda = PublicKey.findProgramAddressSync(
     [Buffer.from(utils.bytes.utf8.encode('spot_market')), new BN(marketIndex).toArrayLike(Buffer, 'le', 2)],
     new PublicKey('dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH'),
@@ -27,21 +27,22 @@ async function main() {
   console.log({ pda, bytes: new BN(2).toArrayLike(Buffer, 'le', marketIndex).toJSON() });
 
   // user's address that we want to query
-  const pubKey = new PublicKey('4aKQfBxhpBCmmjrxMWqHbb3eznd3ge4X5b4YY255o4CY');
+  const pubKey = new PublicKey('7w2xaWSTAKszpyv7dK88kLKoYgQBcJD6gYn6BtrA372x');
   // drift program address
   const driftProgram = new PublicKey('dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH');
 
   await driftClient.subscribe();
   const marketAccount = await driftClient.getSpotMarketAccount(marketIndex);
-  logAll(marketAccount);
-  // const userAccount = await getUserAccountPublicKeySync(driftProgram, pubKey);
-  // const accountInfo = await driftClient.program.account.user.fetch(
-  //   new PublicKey('5vjVDyekprxf2GCBD1y8W9XN8jSgYVrRrdZ9B8zEA9bw'),
-  // );
+  const userAccount = await getUserAccountPublicKeySync(driftProgram, pubKey);
+  const accountInfo = await driftClient.program.account.user.fetch(
+    new PublicKey('6QLGRrkjQUy3KyE2gpVGgGfZH9ChJgpN5Aw1weRiZBAS'),
+  );
 
-  // const deposits = accountInfo.totalDeposits.toString();
-  // const withdraws = accountInfo.totalWithdraws.toString();
-  // logAll(accountInfo.spotPositions);
+  const deposits = accountInfo.totalDeposits.toString();
+  const withdraws = accountInfo.totalWithdraws.toString();
+  logAll(deposits);
+  logAll(withdraws);
+  logAll(accountInfo.spotPositions);
 }
 
 main();
