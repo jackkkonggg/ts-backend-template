@@ -1,6 +1,6 @@
 import { bcs } from '@mysten/sui.js/bcs';
 import { SuiClient, getFullnodeUrl } from '@mysten/sui.js/client';
-import { TransactionBlock } from '@mysten/sui.js/transactions';
+import { TransactionArgument, TransactionBlock } from '@mysten/sui.js/transactions';
 import { BucketClient } from 'bucket-protocol-sdk';
 import { logAll } from './lib/utils/log-all';
 
@@ -133,7 +133,7 @@ async function unstakeCetus() {
         initialSharedVersion: 1,
       }),
       tx.object('0xb9d46d57d933fabaf9c81f4fc6f54f9c1570d3ef49785c6b7200cad6fe302909'),
-      tx.object('0x51da3286c07920eeddcb029868d45c1a64a73f58002b54345453759fceb308fd'),
+      tx.object('0x125e34c91e07a71c268a860cb2da8f109014c29c1d0a3804fc8ae787e92b0ec3'),
     ],
   });
 
@@ -158,8 +158,8 @@ async function unstakeCetus() {
         mutable: true,
       }),
       tx.sharedObjectRef({
-        objectId: '0x1a0b93fd2965ce3ceb4039c90b232ddee7b0e79015cab0ca10528bb5f4285188',
-        initialSharedVersion: 61717741,
+        objectId: '0x6edfc992f6e775fe926a5e850661c151ad01e6149e9b34792a2102e1721065fc',
+        initialSharedVersion: 75359688,
         mutable: true,
       }),
       tx.sharedObjectRef({
@@ -168,8 +168,8 @@ async function unstakeCetus() {
         mutable: false,
       }),
       tx.sharedObjectRef({
-        objectId: '0x6ecf6d01120f5f055f9a605b56fd661412a81ec7c8b035255e333c664a0c12e7',
-        initialSharedVersion: 11391673,
+        objectId: '0x81fe26939ed676dd766358a60445341a06cea407ca6f3671ef30f162c84126d5',
+        initialSharedVersion: 74445428,
         mutable: true,
       }),
       tx.sharedObjectRef({
@@ -183,9 +183,9 @@ async function unstakeCetus() {
 
   const built = await tx.build({ client: suiClient as any, onlyTransactionKind: true });
   logAll(JSON.stringify(Array.from(built)));
-  logAll(toB64(built));
-  const res = await suiClient.devInspectTransactionBlock({ transactionBlock: tx as any, sender: user });
-  logAll(res);
+  // logAll(toB64(built));
+  // const res = await suiClient.devInspectTransactionBlock({ transactionBlock: tx as any, sender: user });
+  // logAll(res);
 }
 
 async function getRewards() {
