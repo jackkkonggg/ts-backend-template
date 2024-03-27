@@ -1,6 +1,7 @@
 export const curveChains = {
   1: 'ethereum',
   10: 'optimism',
+  56: 'bsc',
   100: 'xdai',
   137: 'polygon',
   250: 'fantom',

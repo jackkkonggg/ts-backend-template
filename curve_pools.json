@@ -7814,6 +7814,15 @@
     {
         "chain": "ethereum",
         "chainId": 1,
+        "id": "factory-tricrypto-35",
+        "pool": "0x9432242d9dc10ad5e2fe570b8fc053a16597caf6",
+        "lpTokenAddress": "0x9432242d9dc10ad5e2fe570b8fc053a16597caf6",
+        "type": "factory-tricrypto",
+        "gauge": "0xeac2a8ff1fbe37c78fe928c43f1dc8d413bef25e"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
         "id": "factory-stable-ng-0",
         "pool": "0x36dfe783603522566c046ba1fa403c8c6f569220",
         "lpTokenAddress": "0x36dfe783603522566c046ba1fa403c8c6f569220",
@@ -8762,6 +8771,555 @@
         "id": "factory-stable-ng-105",
         "pool": "0x670a72e6d22b0956c0d2573288f82dcc5d6e3a61",
         "lpTokenAddress": "0x670a72e6d22b0956c0d2573288f82dcc5d6e3a61",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-106",
+        "pool": "0x8ffc7b89412efd0d17edea2018f6634ea4c2fcb2",
+        "lpTokenAddress": "0x8ffc7b89412efd0d17edea2018f6634ea4c2fcb2",
+        "type": "factory-stable-ng",
+        "gauge": "0x94e4fd3747dcd100d333e896d7352c5fbccf4ce7"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-107",
+        "pool": "0xd6982da59f1d26476e259559508f4135135cf9b8",
+        "lpTokenAddress": "0xd6982da59f1d26476e259559508f4135135cf9b8",
+        "type": "factory-stable-ng",
+        "gauge": "0x5d552497f8fe3317565ee76bcc57fad80c70a911"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-108",
+        "pool": "0x189b4e49b5caf33565095097b4b960f14032c7d0",
+        "lpTokenAddress": "0x189b4e49b5caf33565095097b4b960f14032c7d0",
+        "type": "factory-stable-ng",
+        "gauge": "0xc58706e1c2d7c56d1a79407401a0647630fe6413"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-109",
+        "pool": "0x69cf42f15f9325986154b61a013da6e8fec82ccf",
+        "lpTokenAddress": "0x69cf42f15f9325986154b61a013da6e8fec82ccf",
+        "type": "factory-stable-ng",
+        "gauge": "0x05294f9a5dcd9610c8bbc78b5274fdbd79caa552"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-110",
+        "pool": "0x1ee81c56e42ec34039d993d12410d437ddea341e",
+        "lpTokenAddress": "0x1ee81c56e42ec34039d993d12410d437ddea341e",
+        "type": "factory-stable-ng",
+        "gauge": "0xb2a385f10daf66d5ea1418a2bb819b85f1bc3a5b"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-111",
+        "pool": "0x74345504eaea3d9408fc69ae7eb2d14095643c5b",
+        "lpTokenAddress": "0x74345504eaea3d9408fc69ae7eb2d14095643c5b",
+        "type": "factory-stable-ng",
+        "gauge": "0xec303960cf0456ac304af45c0adde34921a10fdf"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-112",
+        "pool": "0xc03fef1c425956a3cd5762022e511e0d4148b3d6",
+        "lpTokenAddress": "0xc03fef1c425956a3cd5762022e511e0d4148b3d6",
+        "type": "factory-stable-ng",
+        "gauge": "0x29b45b633b0c281245055d6713f167818e73e38c"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-113",
+        "pool": "0xeeda34a377dd0ca676b9511ee1324974fa8d980d",
+        "lpTokenAddress": "0xeeda34a377dd0ca676b9511ee1324974fa8d980d",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-114",
+        "pool": "0x16b54e3ac8e3ba088333985035b869847e36e770",
+        "lpTokenAddress": "0x16b54e3ac8e3ba088333985035b869847e36e770",
+        "type": "factory-stable-ng",
+        "gauge": "0x1bd797787eb1bcf91445fa14671f19f5a722e1f5"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-115",
+        "pool": "0xca554e2e2948a211d4650fe0f4e271f01f9cb5f1",
+        "lpTokenAddress": "0xca554e2e2948a211d4650fe0f4e271f01f9cb5f1",
+        "type": "factory-stable-ng",
+        "gauge": "0x92c4a06209ec44919a7cfa62e11357fe7e012090"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-116",
+        "pool": "0xf33ab11e5c4e55dacb13644f0c0a9d1e199a796f",
+        "lpTokenAddress": "0xf33ab11e5c4e55dacb13644f0c0a9d1e199a796f",
+        "type": "factory-stable-ng",
+        "gauge": "0x59e9d4672aaeb08c250f9c61484c9447456495a8"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-117",
+        "pool": "0x635ef0056a597d13863b73825cca297236578595",
+        "lpTokenAddress": "0x635ef0056a597d13863b73825cca297236578595",
+        "type": "factory-stable-ng",
+        "gauge": "0x4717c25df44e280ec5b31acbd8c194e1ed24efe2"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-118",
+        "pool": "0x66267c6e24fbcdebf06ae9104e0ccfb9c8b2ae08",
+        "lpTokenAddress": "0x66267c6e24fbcdebf06ae9104e0ccfb9c8b2ae08",
+        "type": "factory-stable-ng",
+        "gauge": "0x55a3a857598b500fd844610ed875ec73ff296c4b"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-119",
+        "pool": "0xdf9015472ea23e3bea6fbd6092915f9ed6980a99",
+        "lpTokenAddress": "0xdf9015472ea23e3bea6fbd6092915f9ed6980a99",
+        "type": "factory-stable-ng",
+        "gauge": "0x90efd41e75360ffc7fd1d3c5fc0e4f43e8bcd9bc"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-120",
+        "pool": "0xcd53362d9260a1a28d233e3caec8c739a1209eec",
+        "lpTokenAddress": "0xcd53362d9260a1a28d233e3caec8c739a1209eec",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-121",
+        "pool": "0x3a65cbaebbfecbea5d0cb523ab56fdbda7ff9aaa",
+        "lpTokenAddress": "0x3a65cbaebbfecbea5d0cb523ab56fdbda7ff9aaa",
+        "type": "factory-stable-ng",
+        "gauge": "0x44f30d79f62a3d5340030d64806cd73239889f07"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-122",
+        "pool": "0xf5a7906b41b858b66d3a7cbe167df1fb43ffe977",
+        "lpTokenAddress": "0xf5a7906b41b858b66d3a7cbe167df1fb43ffe977",
+        "type": "factory-stable-ng",
+        "gauge": "0x903ffab5fcd2a67875ee83525ece7aa04b6ca05f"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-123",
+        "pool": "0xdb81ee37b9dd2e636e2b87023029bd7f07c045b3",
+        "lpTokenAddress": "0xdb81ee37b9dd2e636e2b87023029bd7f07c045b3",
+        "type": "factory-stable-ng",
+        "gauge": "0x6650b53d32fec5967a55449aed2dba55a5b10a7b"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-124",
+        "pool": "0x7c6ba632f9c27c68350bfd24d67d8f599209c953",
+        "lpTokenAddress": "0x7c6ba632f9c27c68350bfd24d67d8f599209c953",
+        "type": "factory-stable-ng",
+        "gauge": "0x70e60cbb7762ef1861d2016447b39da67931ce1b"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-125",
+        "pool": "0x627c22bd39c69e65f749f6307430da881709941c",
+        "lpTokenAddress": "0x627c22bd39c69e65f749f6307430da881709941c",
+        "type": "factory-stable-ng",
+        "gauge": "0x85ce5ebeebd253adbc21ab9289fda8e2387bcca2"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-126",
+        "pool": "0x20bb4a325924917e3336753ba5350a84f70f392e",
+        "lpTokenAddress": "0x20bb4a325924917e3336753ba5350a84f70f392e",
+        "type": "factory-stable-ng",
+        "gauge": "0x53d1d10ae1f092de46df35376e1cb3ea7382384d"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-127",
+        "pool": "0x6fc7ea6ca8cd2759803eb78159c931a8ff5e0557",
+        "lpTokenAddress": "0x6fc7ea6ca8cd2759803eb78159c931a8ff5e0557",
+        "type": "factory-stable-ng",
+        "gauge": "0xef66472681654922dd78649aa71ce47c281c49e9"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-128",
+        "pool": "0x733a2a4f6d111e04040e88d6595083828965e01b",
+        "lpTokenAddress": "0x733a2a4f6d111e04040e88d6595083828965e01b",
+        "type": "factory-stable-ng",
+        "gauge": "0xfd8dae8824a5c056a02a03226f23a8faa40be5c9"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-129",
+        "pool": "0xbf673d8dc8ff9c9dc8f8063532a7d3bbd3799298",
+        "lpTokenAddress": "0xbf673d8dc8ff9c9dc8f8063532a7d3bbd3799298",
+        "type": "factory-stable-ng",
+        "gauge": "0x2e1ea2c45e6af813555382a6d0d9c98eb081c535"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-130",
+        "pool": "0xb54229ab1162673339a7c7ea097609555e84308a",
+        "lpTokenAddress": "0xb54229ab1162673339a7c7ea097609555e84308a",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-131",
+        "pool": "0x5378c23f4cf85fc28fddea16153cf9213aefe9be",
+        "lpTokenAddress": "0x5378c23f4cf85fc28fddea16153cf9213aefe9be",
+        "type": "factory-stable-ng",
+        "gauge": "0x9fb7c82dac1823a472def8b506ea70fdbfc3fc3f"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-132",
+        "pool": "0x98407609f0911b57a8666a48c74666bafbaef501",
+        "lpTokenAddress": "0x98407609f0911b57a8666a48c74666bafbaef501",
+        "type": "factory-stable-ng",
+        "gauge": "0xdd2d0d32dcae80e4cbd87a609cc72f5b1a042548"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-133",
+        "pool": "0x68e26daf88da63bebd3da05fc9c880fa37080d3e",
+        "lpTokenAddress": "0x68e26daf88da63bebd3da05fc9c880fa37080d3e",
+        "type": "factory-stable-ng",
+        "gauge": "0x5d0bb2c582e9298e33e8d2fba3d5a278a8f28553"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-134",
+        "pool": "0x51fd52420ce0c8df1fcf36c9511f01998de73887",
+        "lpTokenAddress": "0x51fd52420ce0c8df1fcf36c9511f01998de73887",
+        "type": "factory-stable-ng",
+        "gauge": "0x3ed4de2fabd03a6fd289851544c1065b961bd195"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-135",
+        "pool": "0x15061e372d50792b68a8e400e89a5da0e4861236",
+        "lpTokenAddress": "0x15061e372d50792b68a8e400e89a5da0e4861236",
+        "type": "factory-stable-ng",
+        "gauge": "0x319b3ec2945ee430d8418ae6e9e1e6f8abbbb754"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-136",
+        "pool": "0x60f7a9da4780a170f0b46e76e758122e5bb14488",
+        "lpTokenAddress": "0x60f7a9da4780a170f0b46e76e758122e5bb14488",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-0",
+        "pool": "0x6ef125725f34e51086644ddb29c12542a422567f",
+        "lpTokenAddress": "0x0fa49d772f23e91746ac60a93ea602ab812457df",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-1",
+        "pool": "0x8d5e28591f7d5592be0574cf18d3acaae08f96dd",
+        "lpTokenAddress": "0xf77b2c6ca35c2909b176c738480f8e495f5b6b06",
+        "type": "factory-crypto",
+        "gauge": "0x99e949bfcc7518419bf48530f22d1bc633b618c4"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-2",
+        "pool": "0xcf9fa02ee296dcfea2bec2c6bc6f2c20262301bb",
+        "lpTokenAddress": "0x40f9d47f821cde6a46c58bca7368552da20facc0",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-3",
+        "pool": "0xafcf3aebbb3d2f79eec846ce2693d8b4b2bd0084",
+        "lpTokenAddress": "0xae1e7123e491ea3ffee012c3bcb43d8d8f3200f3",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-4",
+        "pool": "0xc9967bb111da5f1853c4dfa3f3696087793bc515",
+        "lpTokenAddress": "0x7b6f6943ce9461ccea4357e81f2d0fb66e309e4c",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-5",
+        "pool": "0xd7c760982bc2fa02e58c4f16c8c7e74f8e158eb7",
+        "lpTokenAddress": "0x8b2a31127dd8e15121d290bef839e58f5b3fb1b3",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-6",
+        "pool": "0x83623ddc7f73bf02de045925c1341f237c0ad21b",
+        "lpTokenAddress": "0x71d104fa35878b2c73b906303faece43011f7fd8",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-7",
+        "pool": "0x4c8db2a15818d5df9cf4d1c5faf562d9d9624130",
+        "lpTokenAddress": "0xa37cbba86c6b2b1e56a05ac0c4a7d8f4934ab2f8",
+        "type": "factory-crypto",
+        "gauge": "0xbde9407c809f00431b6c2a2aecde0b71b919d175"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-8",
+        "pool": "0x5da0c11d0e8c4dde9adf7dc5a0490b12d0a1821f",
+        "lpTokenAddress": "0xb73f4afa406c6b0f76bc540658928fc0f1d6798c",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-crypto-9",
+        "pool": "0xb259765a18cd2fd3c4eebc5a1778e26397ca7bea",
+        "lpTokenAddress": "0xeddeefa396595bdd76c2f72a21748e7dc4b50a74",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-0",
+        "pool": "0xab3291b73a1087265e126e330cede0cfd4b8a693",
+        "lpTokenAddress": "0xab3291b73a1087265e126e330cede0cfd4b8a693",
+        "type": "factory-stable-ng",
+        "gauge": "0x334da17e037c2683f27c56b61001bb3308eed6cf"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-1",
+        "pool": "0xb27d447cf1d211ca60676728ac28060ecfb90800",
+        "lpTokenAddress": "0xb27d447cf1d211ca60676728ac28060ecfb90800",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-2",
+        "pool": "0xa3c9049581b40cc7e603d8bf5b88e556e4d13c6c",
+        "lpTokenAddress": "0xa3c9049581b40cc7e603d8bf5b88e556e4d13c6c",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-3",
+        "pool": "0xd1990896460bb0701190b2b4d27346da41568375",
+        "lpTokenAddress": "0xd1990896460bb0701190b2b4d27346da41568375",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-4",
+        "pool": "0xa1174d3af66ad2fd7c6d5c7b458b6da38988cd56",
+        "lpTokenAddress": "0xa1174d3af66ad2fd7c6d5c7b458b6da38988cd56",
+        "type": "factory-stable-ng",
+        "gauge": "0x7bb504c2df9b3e8784da513ad08553bad33ae7bd"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-5",
+        "pool": "0xd2a1ff5b5967c14cb1bb809fb70c0da77c9b55a8",
+        "lpTokenAddress": "0xd2a1ff5b5967c14cb1bb809fb70c0da77c9b55a8",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-6",
+        "pool": "0xf59aa8acd7944abecf804e455a22b65f285af534",
+        "lpTokenAddress": "0xf59aa8acd7944abecf804e455a22b65f285af534",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-7",
+        "pool": "0x29c1b0baa9ac0182cf9f6ffceaf143f3ef3546a0",
+        "lpTokenAddress": "0x29c1b0baa9ac0182cf9f6ffceaf143f3ef3546a0",
+        "type": "factory-stable-ng",
+        "gauge": "0xbf814d22a7104c715f0286480aed5045ef3237bd"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-8",
+        "pool": "0xf34a494e2e148d3227a2e8eea70d58bcbe88b188",
+        "lpTokenAddress": "0xf34a494e2e148d3227a2e8eea70d58bcbe88b188",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-9",
+        "pool": "0xebe423b5466f9675669b2a4521b6e9f852dd1f52",
+        "lpTokenAddress": "0xebe423b5466f9675669b2a4521b6e9f852dd1f52",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-10",
+        "pool": "0xae87e5fa20f335ce14aa3b9e0616308d9ac7d4ce",
+        "lpTokenAddress": "0xae87e5fa20f335ce14aa3b9e0616308d9ac7d4ce",
+        "type": "factory-stable-ng",
+        "gauge": "0x9721422419e9e952339386d581fce3413b3f1111"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-11",
+        "pool": "0xc4ec3ab41182e70ca45a764ffc5c45b9a82ccc97",
+        "lpTokenAddress": "0xc4ec3ab41182e70ca45a764ffc5c45b9a82ccc97",
+        "type": "factory-stable-ng",
+        "gauge": "0xf06ef14779c32db25b1d15c9f662e6521cf4310f"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-12",
+        "pool": "0xc77478b0e4eecee34ebe2fc4be7ec9bba20a5ccd",
+        "lpTokenAddress": "0xc77478b0e4eecee34ebe2fc4be7ec9bba20a5ccd",
+        "type": "factory-stable-ng",
+        "gauge": "0xc5e38c18bfe64a0bf9c8987f504e6c878c39ef8a"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-13",
+        "pool": "0xa6434bcc9da7facae3ad1001cf6fb5622a223aec",
+        "lpTokenAddress": "0xa6434bcc9da7facae3ad1001cf6fb5622a223aec",
+        "type": "factory-stable-ng",
+        "gauge": "0x091361e05f2d759a7e644bb4c0e35fdee3a77033"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-14",
+        "pool": "0x5c49af290d655373e170e52e9dbdb02ea6833550",
+        "lpTokenAddress": "0x5c49af290d655373e170e52e9dbdb02ea6833550",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-15",
+        "pool": "0x2b66f9470d35c985700724b4fc4fbe035c88c8f2",
+        "lpTokenAddress": "0x2b66f9470d35c985700724b4fc4fbe035c88c8f2",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-16",
+        "pool": "0x95acf99a46e95cbfb1873344a56b5ee7d6881307",
+        "lpTokenAddress": "0x95acf99a46e95cbfb1873344a56b5ee7d6881307",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-17",
+        "pool": "0xdbf96720976f8e54411e283e4cf1175dcf69ef43",
+        "lpTokenAddress": "0xdbf96720976f8e54411e283e4cf1175dcf69ef43",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-18",
+        "pool": "0xebafb74a98ba14430eedc716c0034123c3040ca4",
+        "lpTokenAddress": "0xebafb74a98ba14430eedc716c0034123c3040ca4",
+        "type": "factory-stable-ng",
+        "gauge": "0xd3bb02b7b5eacb0eef4d13c468257af1c3be9f99"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-stable-ng-19",
+        "pool": "0x7646a734a08d4c297af1ffc4e63c493cb02fe2a4",
+        "lpTokenAddress": "0x7646a734a08d4c297af1ffc4e63c493cb02fe2a4",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -9812,6 +10370,15 @@
     {
         "chain": "avalanche",
         "chainId": 43114,
+        "id": "factory-v2-111",
+        "pool": "0x660772200743ec64b0cfe9d584c5dab96a56ab66",
+        "lpTokenAddress": "0x660772200743ec64b0cfe9d584c5dab96a56ab66",
+        "type": "factory-stable",
+        "gauge": ""
+    },
+    {
+        "chain": "avalanche",
+        "chainId": 43114,
         "id": "factory-stable-ng-0",
         "pool": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
         "lpTokenAddress": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
@@ -9869,6 +10436,33 @@
         "id": "factory-stable-ng-6",
         "pool": "0x46fbbf79c7616891e9fe054161a07ac2681bf2d8",
         "lpTokenAddress": "0x46fbbf79c7616891e9fe054161a07ac2681bf2d8",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "avalanche",
+        "chainId": 43114,
+        "id": "factory-stable-ng-7",
+        "pool": "0x84d64037336de7814acd565bcf42d7f0a288e8fb",
+        "lpTokenAddress": "0x84d64037336de7814acd565bcf42d7f0a288e8fb",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "avalanche",
+        "chainId": 43114,
+        "id": "factory-stable-ng-8",
+        "pool": "0x4696f5123a58cf09cb5e142376fd1d2b0b86c0ec",
+        "lpTokenAddress": "0x4696f5123a58cf09cb5e142376fd1d2b0b86c0ec",
+        "type": "factory-stable-ng",
+        "gauge": "0x318e76cf5cad901c542c1dd4fc2c33ba3d8de1c1"
+    },
+    {
+        "chain": "avalanche",
+        "chainId": 43114,
+        "id": "factory-stable-ng-9",
+        "pool": "0x9f4d521f28055f489ab4d6c65a0cd472f3a72bae",
+        "lpTokenAddress": "0x9f4d521f28055f489ab4d6c65a0cd472f3a72bae",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -17624,6 +18218,24 @@
     {
         "chain": "polygon",
         "chainId": 137,
+        "id": "factory-crypto-359",
+        "pool": "0x3219160f1b64efec3bab93166569d421760009ab",
+        "lpTokenAddress": "0x8939dc9174cc3533d0e90a22c9e1424145b496ba",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-crypto-360",
+        "pool": "0x1461b5daf1e2a8fb7fc04fbe804048b66295cd5d",
+        "lpTokenAddress": "0xa91a143ea43579dc17bf27a04f8b01a2666ebd0f",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
         "id": "factory-stable-ng-0",
         "pool": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
         "lpTokenAddress": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
@@ -18041,6 +18653,177 @@
         "id": "factory-stable-ng-46",
         "pool": "0x0604aa49f8d1ca34ad6dc934bb5e369767e509d4",
         "lpTokenAddress": "0x0604aa49f8d1ca34ad6dc934bb5e369767e509d4",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-47",
+        "pool": "0x6a6b04be8b880fcd41c7e23f0a668dc15a2f0d25",
+        "lpTokenAddress": "0x6a6b04be8b880fcd41c7e23f0a668dc15a2f0d25",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-48",
+        "pool": "0xcaa5338c5e5464fb176340e1e96d9acfc3d74a76",
+        "lpTokenAddress": "0xcaa5338c5e5464fb176340e1e96d9acfc3d74a76",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-49",
+        "pool": "0x9dfde1b4d9950b793accb951d243eafd33d117d2",
+        "lpTokenAddress": "0x9dfde1b4d9950b793accb951d243eafd33d117d2",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-50",
+        "pool": "0xbb2a7485490eb3ec8c2f34cf798a2b2c1f17b30b",
+        "lpTokenAddress": "0xbb2a7485490eb3ec8c2f34cf798a2b2c1f17b30b",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-51",
+        "pool": "0x597803b877deb663c1eb9eadfa125201bbf0e0e9",
+        "lpTokenAddress": "0x597803b877deb663c1eb9eadfa125201bbf0e0e9",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-52",
+        "pool": "0x628350e16b665e0caa9bc8edbbbe0db31efb3bdc",
+        "lpTokenAddress": "0x628350e16b665e0caa9bc8edbbbe0db31efb3bdc",
+        "type": "factory-stable-ng",
+        "gauge": "0x894a799e46752ac7a93f2b329ddcfbfcd529e6b3"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-53",
+        "pool": "0xc2e5e6eddca0f09529bd26733bf9bedd4186f2ef",
+        "lpTokenAddress": "0xc2e5e6eddca0f09529bd26733bf9bedd4186f2ef",
+        "type": "factory-stable-ng",
+        "gauge": "0xbc90cdeb12c1bc2f595952065de022234de65d19"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-54",
+        "pool": "0x501489231c23ff9bcda32683fa304c92228b7db1",
+        "lpTokenAddress": "0x501489231c23ff9bcda32683fa304c92228b7db1",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-55",
+        "pool": "0x67327f1a567fa9649319d9d37d14d6594236e36c",
+        "lpTokenAddress": "0x67327f1a567fa9649319d9d37d14d6594236e36c",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-56",
+        "pool": "0xf72883e8a2ee1d969bf68d0cf8376c66a1aaa21c",
+        "lpTokenAddress": "0xf72883e8a2ee1d969bf68d0cf8376c66a1aaa21c",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-57",
+        "pool": "0xc91f03e9869e21fec7de6f7186ec9f8366e62c1d",
+        "lpTokenAddress": "0xc91f03e9869e21fec7de6f7186ec9f8366e62c1d",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-58",
+        "pool": "0xe89c8373fa5c261d77fdea75198c58f38940d544",
+        "lpTokenAddress": "0xe89c8373fa5c261d77fdea75198c58f38940d544",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-59",
+        "pool": "0xffe43cd3eb7575f8bb174bd5818be2d96217ae84",
+        "lpTokenAddress": "0xffe43cd3eb7575f8bb174bd5818be2d96217ae84",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-60",
+        "pool": "0xef16eedae685b32f9ac95441d1c378d6f5abf68d",
+        "lpTokenAddress": "0xef16eedae685b32f9ac95441d1c378d6f5abf68d",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-61",
+        "pool": "0x18ac653b801a7f15e0ebb97ab8176832c38a6a5a",
+        "lpTokenAddress": "0x18ac653b801a7f15e0ebb97ab8176832c38a6a5a",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-62",
+        "pool": "0x4522868c16ba6382713245a1776afb86d2630110",
+        "lpTokenAddress": "0x4522868c16ba6382713245a1776afb86d2630110",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-63",
+        "pool": "0x71f2d9758e49f7a5a934f7ac9189f967b3fa8e45",
+        "lpTokenAddress": "0x71f2d9758e49f7a5a934f7ac9189f967b3fa8e45",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-64",
+        "pool": "0x9a88b956012968b6f519f9db1d3bb5514163b856",
+        "lpTokenAddress": "0x9a88b956012968b6f519f9db1d3bb5514163b856",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-65",
+        "pool": "0x52703257e667a7f38e4ca4c2d573634225c0af7a",
+        "lpTokenAddress": "0x52703257e667a7f38e4ca4c2d573634225c0af7a",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -18979,6 +19762,24 @@
         "lpTokenAddress": "0x56771e7a9df6e977164b48e07aa3f5dadf448402",
         "type": "factory-stable-ng",
         "gauge": "0x6a7b02338a0a7152e08f768c46d9dd837c35c2df"
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-12",
+        "pool": "0x5850dda4235b04765b09710eb4dcdc10c395e650",
+        "lpTokenAddress": "0x5850dda4235b04765b09710eb4dcdc10c395e650",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-13",
+        "pool": "0x2c0a4d49d77aa5fb16780cec70c0afe6d5644a34",
+        "lpTokenAddress": "0x2c0a4d49d77aa5fb16780cec70c0afe6d5644a34",
+        "type": "factory-stable-ng",
+        "gauge": ""
     },
     {
         "chain": "fantom",
@@ -20828,6 +21629,15 @@
     {
         "chain": "fantom",
         "chainId": 250,
+        "id": "factory-crypto-42",
+        "pool": "0x00a4ebb5b2f51882cf7df65e556bf0b742f02e4e",
+        "lpTokenAddress": "0xc5414619cf011534e1405018edf1cf4e3f2d6445",
+        "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
         "id": "factory-eywa-0",
         "pool": "0x64d09662725ddc8d01a037618906a04326b9985f",
         "lpTokenAddress": "0x64d09662725ddc8d01a037618906a04326b9985f",
@@ -20975,6 +21785,60 @@
         "id": "factory-stable-ng-11",
         "pool": "0xa897a4ffe2e1ad7f6d3f5d0039591b2b592ddaed",
         "lpTokenAddress": "0xa897a4ffe2e1ad7f6d3f5d0039591b2b592ddaed",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-12",
+        "pool": "0x530181da01ce115559e11bb675fb296f42abe262",
+        "lpTokenAddress": "0x530181da01ce115559e11bb675fb296f42abe262",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-13",
+        "pool": "0xf211faeb742c6f7c4b0a97b7bbc98393bfefef53",
+        "lpTokenAddress": "0xf211faeb742c6f7c4b0a97b7bbc98393bfefef53",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-14",
+        "pool": "0x6857fb7b589a319d9c3db71178f58eaa8a4dc89e",
+        "lpTokenAddress": "0x6857fb7b589a319d9c3db71178f58eaa8a4dc89e",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-15",
+        "pool": "0x942eb70cfe56da24f0f2163e924e00ed31ee4290",
+        "lpTokenAddress": "0x942eb70cfe56da24f0f2163e924e00ed31ee4290",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-16",
+        "pool": "0x353bb1dfbc52bc3b0e7d264216b1455df00f50be",
+        "lpTokenAddress": "0x353bb1dfbc52bc3b0e7d264216b1455df00f50be",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
+        "id": "factory-stable-ng-17",
+        "pool": "0x5ecac5fb1d9634f9e1c2dab2381b9adaada5f80b",
+        "lpTokenAddress": "0x5ecac5fb1d9634f9e1c2dab2381b9adaada5f80b",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -22583,6 +23447,24 @@
     {
         "chain": "arbitrum",
         "chainId": 42161,
+        "id": "factory-tricrypto-20",
+        "pool": "0xb85246768cfea42b0c935265db798c9ae457646f",
+        "lpTokenAddress": "0xb85246768cfea42b0c935265db798c9ae457646f",
+        "type": "factory-tricrypto",
+        "gauge": "0x25e822b65a58ce1a53dbc327d4fa489351fb1df0"
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-tricrypto-21",
+        "pool": "0x2860c962d9742ce51e1ec207b795d8d7df9a3ad8",
+        "lpTokenAddress": "0x2860c962d9742ce51e1ec207b795d8d7df9a3ad8",
+        "type": "factory-tricrypto",
+        "gauge": "0x25166ad8b8dfcbb1c5f4227ab0f919f974a2f428"
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
         "id": "factory-stable-ng-0",
         "pool": "0x73af1150f265419ef8a5db41908b700c32d49135",
         "lpTokenAddress": "0x73af1150f265419ef8a5db41908b700c32d49135",
@@ -22912,6 +23794,51 @@
         "lpTokenAddress": "0x15d92f1609e4d45ab04deba7acd11c5fdb859129",
         "type": "factory-stable-ng",
         "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-37",
+        "pool": "0x7e8e416d25a1fcea0a9e2110278b19f933c14368",
+        "lpTokenAddress": "0x7e8e416d25a1fcea0a9e2110278b19f933c14368",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-38",
+        "pool": "0xbe70da74ea01550402c018feacb52eff79917a2d",
+        "lpTokenAddress": "0xbe70da74ea01550402c018feacb52eff79917a2d",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-39",
+        "pool": "0xec9c5703b5cbc2d23574eede451e941304ac61a5",
+        "lpTokenAddress": "0xec9c5703b5cbc2d23574eede451e941304ac61a5",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-40",
+        "pool": "0xdade5d52e5fce7bf64243e30dc1439787e64ba32",
+        "lpTokenAddress": "0xdade5d52e5fce7bf64243e30dc1439787e64ba32",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-41",
+        "pool": "0x8958ae46de6b33293dddc6cdfbe36900f4631851",
+        "lpTokenAddress": "0x8958ae46de6b33293dddc6cdfbe36900f4631851",
+        "type": "factory-stable-ng",
+        "gauge": "0x5c5480a5c90eacb8f31028f0f0ea9a716d04028d"
     },
     {
         "chain": "base",
@@ -23423,6 +24350,87 @@
         "id": "factory-stable-ng-3",
         "pool": "0x86d7fa03a70c428d3e28092f4509a16f16ec5b7c",
         "lpTokenAddress": "0x86d7fa03a70c428d3e28092f4509a16f16ec5b7c",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-4",
+        "pool": "0xd876fdb964652072c9d57988831b1e1f04a98e80",
+        "lpTokenAddress": "0xd876fdb964652072c9d57988831b1e1f04a98e80",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-5",
+        "pool": "0xb4d31111e6ff548f6fb43860da8de6fb932d5bb0",
+        "lpTokenAddress": "0xb4d31111e6ff548f6fb43860da8de6fb932d5bb0",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-6",
+        "pool": "0xf2f426fe123de7b769b2d4f8c911512f065225d3",
+        "lpTokenAddress": "0xf2f426fe123de7b769b2d4f8c911512f065225d3",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-7",
+        "pool": "0x35c6c59277f8fa9ae98dea29b0546d79957acdd8",
+        "lpTokenAddress": "0x35c6c59277f8fa9ae98dea29b0546d79957acdd8",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-8",
+        "pool": "0xd4e59bfd7bce4a5bc1ee12ea930c7495831d6aef",
+        "lpTokenAddress": "0xd4e59bfd7bce4a5bc1ee12ea930c7495831d6aef",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-9",
+        "pool": "0xc65d17166d0894a926afe30885a9fb713e7c39ee",
+        "lpTokenAddress": "0xc65d17166d0894a926afe30885a9fb713e7c39ee",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-10",
+        "pool": "0x602c281d739357ccd54479960b3196f27571e5da",
+        "lpTokenAddress": "0x602c281d739357ccd54479960b3196f27571e5da",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-11",
+        "pool": "0x385540fda649a114ffeb943fd73ae82ce7908da3",
+        "lpTokenAddress": "0x385540fda649a114ffeb943fd73ae82ce7908da3",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-12",
+        "pool": "0xbcdb3980de7f477263a6e49fc75a38dcc1c0e67a",
+        "lpTokenAddress": "0xbcdb3980de7f477263a6e49fc75a38dcc1c0e67a",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -24044,6 +25052,33 @@
         "id": "factory-stable-ng-13",
         "pool": "0x33b21eea0b59a97e9d568c793b6b3924e1d46fec",
         "lpTokenAddress": "0x33b21eea0b59a97e9d568c793b6b3924e1d46fec",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-stable-ng-14",
+        "pool": "0x845c8bc94610807fcbab5dd2bc7ac9dabaff3c55",
+        "lpTokenAddress": "0x845c8bc94610807fcbab5dd2bc7ac9dabaff3c55",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-stable-ng-15",
+        "pool": "0xf3d8f3de71657d342db60dd714c8a2ae37eac6b4",
+        "lpTokenAddress": "0xf3d8f3de71657d342db60dd714c8a2ae37eac6b4",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-stable-ng-16",
+        "pool": "0x32b0456100e4febca554244b225706b1beeeaeb1",
+        "lpTokenAddress": "0x32b0456100e4febca554244b225706b1beeeaeb1",
         "type": "factory-stable-ng",
         "gauge": ""
     }

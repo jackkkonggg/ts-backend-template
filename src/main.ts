@@ -19,12 +19,14 @@ async function processPool(chainIds: number[]) {
     const { data: subgraphResponse } = await axios.get<GetSubgraphResponse>(
       `https://api.curve.fi/api/getSubgraphData/${curveId}`,
     );
-    // console.log(getVolumeResponse);
+
     const allPools = subgraphResponse.data.poolList;
-    for (const pool of allPools) {
-      const isValidType = pool.type in poolTypeMap;
-      if (!isValidType) {
-        console.log(pool);
+    if (allPools instanceof Array) {
+      for (const pool of allPools) {
+        const isValidType = pool.type in poolTypeMap;
+        if (!isValidType) {
+          console.log(pool);
+        }
       }
     }
 
@@ -122,4 +124,4 @@ async function processPool(chainIds: number[]) {
   // await writeFile(`${curveId}_pools.txt`, txtContent);
 }
 
-processPool([1, 43114, 137, 10, 250, 42161, 8453, 100]);
+processPool([1, 56, 43114, 137, 10, 250, 42161, 8453, 100]);
