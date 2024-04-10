@@ -1,4 +1,5 @@
 export interface GaugeData {
+  isPool: boolean;
   poolUrls: {
     swap: string[];
     deposit: string[];

@@ -56,6 +56,10 @@ async function processPool(chainIds: number[]) {
     data: { data: gaugeData },
   } = await axios.get<CurveGaugeResponse>('https://api.curve.fi/api/getAllGauges');
   for (const gd of Object.values(gaugeData)) {
+    if (gd.isPool === false) {
+      continue;
+    }
+
     const poolUrls = [gd.poolUrls.swap, gd.poolUrls.deposit, gd.poolUrls.withdraw].flat();
     const chain =
       Object.entries(curveChains).find(([key, value]) => {
@@ -69,7 +73,7 @@ async function processPool(chainIds: number[]) {
 
     if (index >= 0) {
       const pd = convertedPoolData[index];
-      console.debug(`Adjusting Gauge at id=${pd.id} pool=${gd.swap} lpTokenAddress=${gd.swap_token} gauge=${gd.gauge}`);
+      // console.debug(`Adjusting Gauge at id=${pd.id} pool=${gd.swap} lpTokenAddress=${gd.swap_token} gauge=${gd.gauge}`);
       convertedPoolData[index].gauge = gd.gauge.toLowerCase();
     }
     //  else if (index >= 0 && convertedPoolData[index].gauge !== '') {
