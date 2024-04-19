@@ -27,6 +27,7 @@ export const poolTypeMap = {
   'factory-crvusd': 'factory-crvusd', // crvusd_factory
   'factory-crypto': 'factory-crypto', // crypto_factory
   'factory-eywa': 'factory-eywa', // eywa_factory
+  'factory-twocrypto': 'factory-twocrypto',
   'factory-tricrypto': 'factory-tricrypto', // tricrypto_factory
   'factory-stable-ng': 'factory-stable-ng', // stable_ng_factory
 };
@@ -38,6 +39,7 @@ export const poolFactoryKeyMap = {
   'factory-crvusd': 'crvusd_factory',
   'factory-crypto': 'crypto_factory',
   'factory-eywa': 'eywa_factory',
+  'factory-twocrypto': 'twocrypto_factory',
   'factory-tricrypto': 'tricrypto_factory',
   'factory-stable-ng': 'stable_ng_factory',
   'gauge-factory': 'gauge_factory',

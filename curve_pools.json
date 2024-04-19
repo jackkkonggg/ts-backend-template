@@ -7490,6 +7490,168 @@
     {
         "chain": "ethereum",
         "chainId": 1,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": "0x16a3a047fc1d388d5846a73acdb475b11228c299"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-1",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-2",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-3",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-4",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": "0xa5dc66685bd13a0924505807c29f8c65dda0d207"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-5",
+        "pool": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "lpTokenAddress": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "type": "factory-twocrypto",
+        "gauge": "0xc798130644b8962a357dfbe8bb30b19b681aa7d4"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-6",
+        "pool": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "lpTokenAddress": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-7",
+        "pool": "0x3f105e0a641747c5401e9513b125e00a5f403556",
+        "lpTokenAddress": "0x3f105e0a641747c5401e9513b125e00a5f403556",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-8",
+        "pool": "0x656dc5d968b899476bee3445584cde5dd123305f",
+        "lpTokenAddress": "0x656dc5d968b899476bee3445584cde5dd123305f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-9",
+        "pool": "0xe34b3a4cedb077b53cc813df6fe34a85749fcecc",
+        "lpTokenAddress": "0xe34b3a4cedb077b53cc813df6fe34a85749fcecc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-10",
+        "pool": "0x55faa4a58f6510f78c1466c71c63200d62a197d2",
+        "lpTokenAddress": "0x55faa4a58f6510f78c1466c71c63200d62a197d2",
+        "type": "factory-twocrypto",
+        "gauge": "0x1fb84fa6d252762e8367ea607a6586e09dcebe3d"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-11",
+        "pool": "0x86ea1191a219989d2da3a85c949a12a92f8ed3db",
+        "lpTokenAddress": "0x86ea1191a219989d2da3a85c949a12a92f8ed3db",
+        "type": "factory-twocrypto",
+        "gauge": "0xc0806d02b4e9ac39278300a1d169564758b02433"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-12",
+        "pool": "0x277fa53c8a53c880e0625c92c92a62a9f60f3f04",
+        "lpTokenAddress": "0x277fa53c8a53c880e0625c92c92a62a9f60f3f04",
+        "type": "factory-twocrypto",
+        "gauge": "0x6dc311b6633989e790783ae9cb4bd88948af9e0e"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-13",
+        "pool": "0x119806f0e93a213029b599d7bbae50bd965c2cc4",
+        "lpTokenAddress": "0x119806f0e93a213029b599d7bbae50bd965c2cc4",
+        "type": "factory-twocrypto",
+        "gauge": "0x696dbfe3b5861120b2c4b7d5c28b1325e8b232f4"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-14",
+        "pool": "0xacdc85afcd8b83eb171affcbe29fad204f6ae45c",
+        "lpTokenAddress": "0xacdc85afcd8b83eb171affcbe29fad204f6ae45c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-15",
+        "pool": "0x69cae865bb5efec4990692bdeb2dacaacc77086f",
+        "lpTokenAddress": "0x69cae865bb5efec4990692bdeb2dacaacc77086f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-16",
+        "pool": "0x0b9036f639f4e7498afa34751a2710159373fc7b",
+        "lpTokenAddress": "0x0b9036f639f4e7498afa34751a2710159373fc7b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-twocrypto-17",
+        "pool": "0x10196c1871e52d2192d1aa675705f096aef089e2",
+        "lpTokenAddress": "0x10196c1871e52d2192d1aa675705f096aef089e2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
         "id": "factory-tricrypto-0",
         "pool": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
         "lpTokenAddress": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
@@ -9189,6 +9351,33 @@
         "gauge": "0x2810d88509d625fc0fb838697098529f5cd3a0ae"
     },
     {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-153",
+        "pool": "0x33f2b4b9f6ebdca98f48548e26149fc44f9e2289",
+        "lpTokenAddress": "0x33f2b4b9f6ebdca98f48548e26149fc44f9e2289",
+        "type": "factory-stable-ng",
+        "gauge": "0xb4a92ebf0387a25f43a0c68ca2772222d86edc1d"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-154",
+        "pool": "0x30ce6e5a75586f0e83bcac77c9135e980e6bc7a8",
+        "lpTokenAddress": "0x30ce6e5a75586f0e83bcac77c9135e980e6bc7a8",
+        "type": "factory-stable-ng",
+        "gauge": "0xd981f69572f2803ecb1249bf54392a4d2b754402"
+    },
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "id": "factory-stable-ng-155",
+        "pool": "0x2a35af84fd1947580a71b12f427bb221cbc0611e",
+        "lpTokenAddress": "0x2a35af84fd1947580a71b12f427bb221cbc0611e",
+        "type": "factory-stable-ng",
+        "gauge": "0x747a945f325bd2adc8d0f4c9622ce4fe4bdd9316"
+    },
+    {
         "chain": "bsc",
         "chainId": 56,
         "id": "factory-crypto-0",
@@ -9276,6 +9465,78 @@
         "pool": "0xb259765a18cd2fd3c4eebc5a1778e26397ca7bea",
         "lpTokenAddress": "0xeddeefa396595bdd76c2f72a21748e7dc4b50a74",
         "type": "factory-crypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-1",
+        "pool": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "lpTokenAddress": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "type": "factory-twocrypto",
+        "gauge": "0x06e58e707670620f1c9875869fd5bb2cbfef6bf0"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-2",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-3",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-4",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": "0x74842bceac2458cfd618211f2f78800f7145beb1"
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-5",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-6",
+        "pool": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "lpTokenAddress": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "bsc",
+        "chainId": 56,
+        "id": "factory-twocrypto-7",
+        "pool": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "lpTokenAddress": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "type": "factory-twocrypto",
         "gauge": ""
     },
     {
@@ -10607,6 +10868,15 @@
         "id": "factory-stable-ng-10",
         "pool": "0xf319d547cb0cae144c6745b7ca2b9c9b1da9eaff",
         "lpTokenAddress": "0xf319d547cb0cae144c6745b7ca2b9c9b1da9eaff",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "avalanche",
+        "chainId": 43114,
+        "id": "factory-stable-ng-11",
+        "pool": "0xb7bacf5b5ac719e9a2b88c5e192ba2955a446c38",
+        "lpTokenAddress": "0xb7bacf5b5ac719e9a2b88c5e192ba2955a446c38",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -18380,6 +18650,708 @@
     {
         "chain": "polygon",
         "chainId": 137,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": "0x0bc03bc0bcc5a9498f06b041a54ee54deaaee2de"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-1",
+        "pool": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "lpTokenAddress": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-2",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-3",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-4",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-5",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-6",
+        "pool": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "lpTokenAddress": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-7",
+        "pool": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "lpTokenAddress": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-8",
+        "pool": "0xc798130644b8962a357dfbe8bb30b19b681aa7d4",
+        "lpTokenAddress": "0xc798130644b8962a357dfbe8bb30b19b681aa7d4",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-9",
+        "pool": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "lpTokenAddress": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-10",
+        "pool": "0xc55ed3323dfff4b2e1d2c8607e015fa7a5a3c7e7",
+        "lpTokenAddress": "0xc55ed3323dfff4b2e1d2c8607e015fa7a5a3c7e7",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-11",
+        "pool": "0x3f105e0a641747c5401e9513b125e00a5f403556",
+        "lpTokenAddress": "0x3f105e0a641747c5401e9513b125e00a5f403556",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-12",
+        "pool": "0x8d374ab634a5a5396fce288d50cbe394a2018812",
+        "lpTokenAddress": "0x8d374ab634a5a5396fce288d50cbe394a2018812",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-13",
+        "pool": "0x656dc5d968b899476bee3445584cde5dd123305f",
+        "lpTokenAddress": "0x656dc5d968b899476bee3445584cde5dd123305f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-14",
+        "pool": "0x2c7bdfb68fc4a36661e4e7a5f5f7aa636f7b99df",
+        "lpTokenAddress": "0x2c7bdfb68fc4a36661e4e7a5f5f7aa636f7b99df",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-15",
+        "pool": "0xe34b3a4cedb077b53cc813df6fe34a85749fcecc",
+        "lpTokenAddress": "0xe34b3a4cedb077b53cc813df6fe34a85749fcecc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-16",
+        "pool": "0x5e5bf6647aed285eb1305b99daed4502d3af7350",
+        "lpTokenAddress": "0x5e5bf6647aed285eb1305b99daed4502d3af7350",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-17",
+        "pool": "0x55faa4a58f6510f78c1466c71c63200d62a197d2",
+        "lpTokenAddress": "0x55faa4a58f6510f78c1466c71c63200d62a197d2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-18",
+        "pool": "0x1fb84fa6d252762e8367ea607a6586e09dcebe3d",
+        "lpTokenAddress": "0x1fb84fa6d252762e8367ea607a6586e09dcebe3d",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-19",
+        "pool": "0x86ea1191a219989d2da3a85c949a12a92f8ed3db",
+        "lpTokenAddress": "0x86ea1191a219989d2da3a85c949a12a92f8ed3db",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-20",
+        "pool": "0xc0806d02b4e9ac39278300a1d169564758b02433",
+        "lpTokenAddress": "0xc0806d02b4e9ac39278300a1d169564758b02433",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-21",
+        "pool": "0x277fa53c8a53c880e0625c92c92a62a9f60f3f04",
+        "lpTokenAddress": "0x277fa53c8a53c880e0625c92c92a62a9f60f3f04",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-22",
+        "pool": "0x6dc311b6633989e790783ae9cb4bd88948af9e0e",
+        "lpTokenAddress": "0x6dc311b6633989e790783ae9cb4bd88948af9e0e",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-23",
+        "pool": "0x119806f0e93a213029b599d7bbae50bd965c2cc4",
+        "lpTokenAddress": "0x119806f0e93a213029b599d7bbae50bd965c2cc4",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-24",
+        "pool": "0x696dbfe3b5861120b2c4b7d5c28b1325e8b232f4",
+        "lpTokenAddress": "0x696dbfe3b5861120b2c4b7d5c28b1325e8b232f4",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-25",
+        "pool": "0xacdc85afcd8b83eb171affcbe29fad204f6ae45c",
+        "lpTokenAddress": "0xacdc85afcd8b83eb171affcbe29fad204f6ae45c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-26",
+        "pool": "0x69cae865bb5efec4990692bdeb2dacaacc77086f",
+        "lpTokenAddress": "0x69cae865bb5efec4990692bdeb2dacaacc77086f",
+        "type": "factory-twocrypto",
+        "gauge": "0x81fa7e91d8c73f7e678c9d0acc2aaab98dd326b7"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-27",
+        "pool": "0x0b9036f639f4e7498afa34751a2710159373fc7b",
+        "lpTokenAddress": "0x0b9036f639f4e7498afa34751a2710159373fc7b",
+        "type": "factory-twocrypto",
+        "gauge": "0x55866460146b903b66f4d2c4d341dcd6a2e09b79"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-28",
+        "pool": "0x10196c1871e52d2192d1aa675705f096aef089e2",
+        "lpTokenAddress": "0x10196c1871e52d2192d1aa675705f096aef089e2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-29",
+        "pool": "0x0ecec6f5276d2ec6bb864f063d2b76393d6a1a74",
+        "lpTokenAddress": "0x0ecec6f5276d2ec6bb864f063d2b76393d6a1a74",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-30",
+        "pool": "0xda73dc70d5ca3f51b0000c308abcd358b5f3fefe",
+        "lpTokenAddress": "0xda73dc70d5ca3f51b0000c308abcd358b5f3fefe",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-31",
+        "pool": "0x77146b0a1d08b6844376df6d9da99ba7f1b19e71",
+        "lpTokenAddress": "0x77146b0a1d08b6844376df6d9da99ba7f1b19e71",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-32",
+        "pool": "0x9af34331175e053bcff330d7bb7a6ea2ba53e83d",
+        "lpTokenAddress": "0x9af34331175e053bcff330d7bb7a6ea2ba53e83d",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-33",
+        "pool": "0xfb8b95fb2296a0ad4b6b1419fdaa5aa5f13e4009",
+        "lpTokenAddress": "0xfb8b95fb2296a0ad4b6b1419fdaa5aa5f13e4009",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-34",
+        "pool": "0x390c6eb1e824a7cca2e646e47d8fcba4263e9e38",
+        "lpTokenAddress": "0x390c6eb1e824a7cca2e646e47d8fcba4263e9e38",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-35",
+        "pool": "0x85847ef522d78efdbec8afb0045dc7d6982837c3",
+        "lpTokenAddress": "0x85847ef522d78efdbec8afb0045dc7d6982837c3",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-36",
+        "pool": "0x9dbcfc09e651c040ee68d6dbeb8a09f8dd0caa77",
+        "lpTokenAddress": "0x9dbcfc09e651c040ee68d6dbeb8a09f8dd0caa77",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-37",
+        "pool": "0xda22f2de17547e3a5cadcc960eb4e9cfdc52e10a",
+        "lpTokenAddress": "0xda22f2de17547e3a5cadcc960eb4e9cfdc52e10a",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-38",
+        "pool": "0x011e998d2d794424de95935d55a6ca81822ecb2b",
+        "lpTokenAddress": "0x011e998d2d794424de95935d55a6ca81822ecb2b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-39",
+        "pool": "0x19d2b5ce188ca60790755204691e38102749297b",
+        "lpTokenAddress": "0x19d2b5ce188ca60790755204691e38102749297b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-40",
+        "pool": "0xb3341ca63b6cecf1e1a0d1a99bf0587f4c305652",
+        "lpTokenAddress": "0xb3341ca63b6cecf1e1a0d1a99bf0587f4c305652",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-41",
+        "pool": "0x99ca0fbaa278cd62e26f0e9b6d167b07d1f0d51b",
+        "lpTokenAddress": "0x99ca0fbaa278cd62e26f0e9b6d167b07d1f0d51b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-42",
+        "pool": "0xde73e407efc75edbafc5bcd62ebb1e7a9b38ebcd",
+        "lpTokenAddress": "0xde73e407efc75edbafc5bcd62ebb1e7a9b38ebcd",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-43",
+        "pool": "0x36152aa234fcf97b5c14fc6d4893fc0da5328bd2",
+        "lpTokenAddress": "0x36152aa234fcf97b5c14fc6d4893fc0da5328bd2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-44",
+        "pool": "0xb2b1458960e4d64716c8c472c114441a02fba1de",
+        "lpTokenAddress": "0xb2b1458960e4d64716c8c472c114441a02fba1de",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-45",
+        "pool": "0x89b4affcd53503ce52090d868310212436d693f3",
+        "lpTokenAddress": "0x89b4affcd53503ce52090d868310212436d693f3",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-46",
+        "pool": "0x9e3015393a42a1ee63b9878be253414a47a8d36c",
+        "lpTokenAddress": "0x9e3015393a42a1ee63b9878be253414a47a8d36c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-47",
+        "pool": "0x565c7b500f2d2c3bb0ca9ff27c562c3705cb8e12",
+        "lpTokenAddress": "0x565c7b500f2d2c3bb0ca9ff27c562c3705cb8e12",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-48",
+        "pool": "0xea7a3cc19b96691fbf3bbf2e4458d74b20f05147",
+        "lpTokenAddress": "0xea7a3cc19b96691fbf3bbf2e4458d74b20f05147",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-49",
+        "pool": "0x016831ace15582d81b50927d2755a4487acf8082",
+        "lpTokenAddress": "0x016831ace15582d81b50927d2755a4487acf8082",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-50",
+        "pool": "0x98961b846d1a046701af1a56023e29ff55522ad5",
+        "lpTokenAddress": "0x98961b846d1a046701af1a56023e29ff55522ad5",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-51",
+        "pool": "0x94a5b3a7aaf67415b7f5973ed1adf542897a45f1",
+        "lpTokenAddress": "0x94a5b3a7aaf67415b7f5973ed1adf542897a45f1",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-52",
+        "pool": "0xbeb468beb5c72d8b4d4f076f473db398562769ed",
+        "lpTokenAddress": "0xbeb468beb5c72d8b4d4f076f473db398562769ed",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-53",
+        "pool": "0x06a2e1521afde7f7dc30d351dcf04408042f536e",
+        "lpTokenAddress": "0x06a2e1521afde7f7dc30d351dcf04408042f536e",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-54",
+        "pool": "0x05da2f0e0c93127815923fc7717bad37b07dbf59",
+        "lpTokenAddress": "0x05da2f0e0c93127815923fc7717bad37b07dbf59",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-55",
+        "pool": "0x8682fa9c4b6495ddf38643807ca088ebe0d22b8b",
+        "lpTokenAddress": "0x8682fa9c4b6495ddf38643807ca088ebe0d22b8b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-56",
+        "pool": "0xcccd572b22dee28479b11dd99589a1e4c0682a7e",
+        "lpTokenAddress": "0xcccd572b22dee28479b11dd99589a1e4c0682a7e",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-57",
+        "pool": "0x6579758e9e85434450d638cfbea0f2fe79856dda",
+        "lpTokenAddress": "0x6579758e9e85434450d638cfbea0f2fe79856dda",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-58",
+        "pool": "0x9a74faaabb5b24e3340cf4332e9be4c3ad82ebde",
+        "lpTokenAddress": "0x9a74faaabb5b24e3340cf4332e9be4c3ad82ebde",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-59",
+        "pool": "0x17dfd8a29b53d006b796480aac1691c1fe0f0b40",
+        "lpTokenAddress": "0x17dfd8a29b53d006b796480aac1691c1fe0f0b40",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-60",
+        "pool": "0xecebad30194ba89a9f894284ac655d429ac7d848",
+        "lpTokenAddress": "0xecebad30194ba89a9f894284ac655d429ac7d848",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-61",
+        "pool": "0x4484a052a0be82af20896ea3c8d891a3d11e8d1a",
+        "lpTokenAddress": "0x4484a052a0be82af20896ea3c8d891a3d11e8d1a",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-62",
+        "pool": "0xb80af51b6a6ff9253cffa30240f2fc7cc839a436",
+        "lpTokenAddress": "0xb80af51b6a6ff9253cffa30240f2fc7cc839a436",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-63",
+        "pool": "0x1314b41a5bc05995eb4a6eaf41a080db8776d26d",
+        "lpTokenAddress": "0x1314b41a5bc05995eb4a6eaf41a080db8776d26d",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-64",
+        "pool": "0x9d1a9763b7358493c3f1be002102bb82eaefc228",
+        "lpTokenAddress": "0x9d1a9763b7358493c3f1be002102bb82eaefc228",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-65",
+        "pool": "0x48e3ad3dd00f48b97e4846591b27832b26e3bb4b",
+        "lpTokenAddress": "0x48e3ad3dd00f48b97e4846591b27832b26e3bb4b",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-66",
+        "pool": "0x8e001d4bac0eae1eea348dfc22f9b8bda67dd211",
+        "lpTokenAddress": "0x8e001d4bac0eae1eea348dfc22f9b8bda67dd211",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-67",
+        "pool": "0xfa6d28b0ce2512202affa0d0ad393944a300730c",
+        "lpTokenAddress": "0xfa6d28b0ce2512202affa0d0ad393944a300730c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-68",
+        "pool": "0x0f5c2743ba071df77c2fcd1f96d7e44c3572efed",
+        "lpTokenAddress": "0x0f5c2743ba071df77c2fcd1f96d7e44c3572efed",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-69",
+        "pool": "0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c",
+        "lpTokenAddress": "0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c",
+        "type": "factory-twocrypto",
+        "gauge": "0x8f21ec12f21eb2bdd79098df4403ad7bfa387ac7"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-70",
+        "pool": "0x7243bd9e4ace21dbeb4c11e7916505b89ad6b107",
+        "lpTokenAddress": "0x7243bd9e4ace21dbeb4c11e7916505b89ad6b107",
+        "type": "factory-twocrypto",
+        "gauge": "0x4d48555474d8029e44f2f6487788736b5815d5e5"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-71",
+        "pool": "0x6c2fcf12a67e6591436ff8693d227ccb49392283",
+        "lpTokenAddress": "0x6c2fcf12a67e6591436ff8693d227ccb49392283",
+        "type": "factory-twocrypto",
+        "gauge": "0x49dc4ddfbf67f9e5cc4380c3dcaf15a3421ac551"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-72",
+        "pool": "0x0f453077165a95e347a194cebbe1c7979ca0e911",
+        "lpTokenAddress": "0x0f453077165a95e347a194cebbe1c7979ca0e911",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-73",
+        "pool": "0x19b8524665abac613d82ece5d8347ba44c714bdd",
+        "lpTokenAddress": "0x19b8524665abac613d82ece5d8347ba44c714bdd",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-74",
+        "pool": "0x2d1352df75836a2681f8be063571c8391c04b0dc",
+        "lpTokenAddress": "0x2d1352df75836a2681f8be063571c8391c04b0dc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-75",
+        "pool": "0xb40fb68c2f3b7914369174869654c6905cfeefd5",
+        "lpTokenAddress": "0xb40fb68c2f3b7914369174869654c6905cfeefd5",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-twocrypto-76",
+        "pool": "0x4f8e4b95db4eefe416064afee01738ce74073632",
+        "lpTokenAddress": "0x4f8e4b95db4eefe416064afee01738ce74073632",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-tricrypto-0",
+        "pool": "0x6ff36bcda790d55a34a6de32e690783eb37f0c8c",
+        "lpTokenAddress": "0x6ff36bcda790d55a34a6de32e690783eb37f0c8c",
+        "type": "factory-tricrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
         "id": "factory-stable-ng-0",
         "pool": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
         "lpTokenAddress": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
@@ -18986,6 +19958,15 @@
         "id": "factory-stable-ng-67",
         "pool": "0x6bf5974c6e78c3910e9eea7a12b69984289bd023",
         "lpTokenAddress": "0x6bf5974c6e78c3910e9eea7a12b69984289bd023",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "id": "factory-stable-ng-68",
+        "pool": "0x0d01a5920c76dbd53344c0f6a49ce066266c75e9",
+        "lpTokenAddress": "0x0d01a5920c76dbd53344c0f6a49ce066266c75e9",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -19820,6 +20801,96 @@
     {
         "chain": "optimism",
         "chainId": 10,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": "0x7909c9306a688c31ccf40a29a14f208c94140b8c"
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-1",
+        "pool": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "lpTokenAddress": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "type": "factory-twocrypto",
+        "gauge": "0x32dc0a4e21b53e0c380e2cb62bbc3fa0a2e312ec"
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-2",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-3",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-4",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-5",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-6",
+        "pool": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "lpTokenAddress": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-7",
+        "pool": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "lpTokenAddress": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-8",
+        "pool": "0xc798130644b8962a357dfbe8bb30b19b681aa7d4",
+        "lpTokenAddress": "0xc798130644b8962a357dfbe8bb30b19b681aa7d4",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-twocrypto-9",
+        "pool": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "lpTokenAddress": "0xff193b129cdf13300b182c12229f4a7d2a2b1d1f",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
         "id": "factory-tricrypto-0",
         "pool": "0x4456d13fc6736e8e8330394c0c622103e06ea419",
         "lpTokenAddress": "0x4456d13fc6736e8e8330394c0c622103e06ea419",
@@ -19969,6 +21040,24 @@
         "lpTokenAddress": "0x012051e0be94709affc55426e3cf4c7f91b12cd0",
         "type": "factory-stable-ng",
         "gauge": "0x744cc19468f4b6b17f60071a402e0bc1aadaab3e"
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-15",
+        "pool": "0x5b3f7f05b79f3ccbe8f33374a578e14dbbb28478",
+        "lpTokenAddress": "0x5b3f7f05b79f3ccbe8f33374a578e14dbbb28478",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "id": "factory-stable-ng-16",
+        "pool": "0x414185d0378d0a2d0adb403d228d13bc9050dc5f",
+        "lpTokenAddress": "0x414185d0378d0a2d0adb403d228d13bc9050dc5f",
+        "type": "factory-stable-ng",
+        "gauge": ""
     },
     {
         "chain": "fantom",
@@ -21872,6 +22961,15 @@
     {
         "chain": "fantom",
         "chainId": 250,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": "0xcd7dc42141d445efe8b7a4603b9e5f0021de6b30"
+    },
+    {
+        "chain": "fantom",
+        "chainId": 250,
         "id": "factory-stable-ng-0",
         "pool": "0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c",
         "lpTokenAddress": "0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c",
@@ -23483,6 +24581,78 @@
     {
         "chain": "arbitrum",
         "chainId": 42161,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-1",
+        "pool": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "lpTokenAddress": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-2",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": "0xcaaf46b1a2a25b11e4a589de64d2341a6762b334"
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-3",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": "0x2a1a064348b1ad9ca8b983016606ea84eca8c620"
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-4",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-5",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-6",
+        "pool": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "lpTokenAddress": "0xa5dc66685bd13a0924505807c29f8c65dda0d207",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-twocrypto-7",
+        "pool": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "lpTokenAddress": "0x592878b920101946fb5915ab97961bc546f211cc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
         "id": "factory-tricrypto-0",
         "pool": "0x7706128afac8875981b2412fac6c4f3053ea705f",
         "lpTokenAddress": "0x7706128afac8875981b2412fac6c4f3053ea705f",
@@ -24102,6 +25272,24 @@
         "gauge": "0x997997ce40963fe9d31019642d3a42f54406bef6"
     },
     {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-47",
+        "pool": "0xb6c9401249b1c3ccafdc60a286443340d9cb8de3",
+        "lpTokenAddress": "0xb6c9401249b1c3ccafdc60a286443340d9cb8de3",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "id": "factory-stable-ng-48",
+        "pool": "0xc44b7e6fe6b1c4700f313822f640596c01c2aa0b",
+        "lpTokenAddress": "0xc44b7e6fe6b1c4700f313822f640596c01c2aa0b",
+        "type": "factory-stable-ng",
+        "gauge": "0xbca77f05a62e29133c05ff8c79e758a0d22787e3"
+    },
+    {
         "chain": "base",
         "chainId": 8453,
         "id": "factory-v2-0",
@@ -24545,6 +25733,123 @@
     {
         "chain": "base",
         "chainId": 8453,
+        "id": "factory-twocrypto-0",
+        "pool": "0xf593ae314749d0c92b450f0a13e7e1791f352bb7",
+        "lpTokenAddress": "0xf593ae314749d0c92b450f0a13e7e1791f352bb7",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-1",
+        "pool": "0xa0d3911349e701a1f49c1ba2dda34b4ce9636569",
+        "lpTokenAddress": "0xa0d3911349e701a1f49c1ba2dda34b4ce9636569",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-2",
+        "pool": "0x3bfd9b2bc7f536cdc1179371af9d46abd1a457be",
+        "lpTokenAddress": "0x3bfd9b2bc7f536cdc1179371af9d46abd1a457be",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-3",
+        "pool": "0x2421176aea0def263805a9c87f6c9d10147b8a93",
+        "lpTokenAddress": "0x2421176aea0def263805a9c87f6c9d10147b8a93",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-4",
+        "pool": "0x513fd781e908540030fbffb88bebf0f21fffd4e0",
+        "lpTokenAddress": "0x513fd781e908540030fbffb88bebf0f21fffd4e0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-5",
+        "pool": "0xdfc2cb97072486fee931d546cf5f2031ef1bda5c",
+        "lpTokenAddress": "0xdfc2cb97072486fee931d546cf5f2031ef1bda5c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-6",
+        "pool": "0x749ef4ab10aef61151e14c9336b07727ffa5a323",
+        "lpTokenAddress": "0x749ef4ab10aef61151e14c9336b07727ffa5a323",
+        "type": "factory-twocrypto",
+        "gauge": "0x7b208c0fcb100dc4e49b4a52a145a8652851826b"
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-7",
+        "pool": "0xbdd4f28ef7b798fb1f8096d46ff8155f878d43dc",
+        "lpTokenAddress": "0xbdd4f28ef7b798fb1f8096d46ff8155f878d43dc",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-8",
+        "pool": "0x98f903b279dff5a4f05c08c22c1d34afe8514da0",
+        "lpTokenAddress": "0x98f903b279dff5a4f05c08c22c1d34afe8514da0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-9",
+        "pool": "0xe556af29d16ae64011906b580303d92bebed06fd",
+        "lpTokenAddress": "0xe556af29d16ae64011906b580303d92bebed06fd",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-10",
+        "pool": "0x0934277dc20e7c0f70ff07a03d0da54ba3817f82",
+        "lpTokenAddress": "0x0934277dc20e7c0f70ff07a03d0da54ba3817f82",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-11",
+        "pool": "0xc270f555892d063aadcbdfc1fedc8d4215a84e32",
+        "lpTokenAddress": "0xc270f555892d063aadcbdfc1fedc8d4215a84e32",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-twocrypto-12",
+        "pool": "0xa79067aa9df995cd6c90eef1e1b93bc9567e6e07",
+        "lpTokenAddress": "0xa79067aa9df995cd6c90eef1e1b93bc9567e6e07",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
         "id": "factory-tricrypto-0",
         "pool": "0xec6a886148b38c233b07cc6732142dccabf1051d",
         "lpTokenAddress": "0xec6a886148b38c233b07cc6732142dccabf1051d",
@@ -24692,6 +25997,24 @@
         "id": "factory-stable-ng-12",
         "pool": "0xbcdb3980de7f477263a6e49fc75a38dcc1c0e67a",
         "lpTokenAddress": "0xbcdb3980de7f477263a6e49fc75a38dcc1c0e67a",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-13",
+        "pool": "0xb9c79bd5e5561bdcc281e2b530cefbbebc9976ac",
+        "lpTokenAddress": "0xb9c79bd5e5561bdcc281e2b530cefbbebc9976ac",
+        "type": "factory-stable-ng",
+        "gauge": ""
+    },
+    {
+        "chain": "base",
+        "chainId": 8453,
+        "id": "factory-stable-ng-14",
+        "pool": "0xf8474c80dfe3af4794eac64672137ad390aabb0a",
+        "lpTokenAddress": "0xf8474c80dfe3af4794eac64672137ad390aabb0a",
         "type": "factory-stable-ng",
         "gauge": ""
     },
@@ -25189,6 +26512,60 @@
         "lpTokenAddress": "0xfa3f2c1b6f4ce8514ec630076473a2d446036430",
         "type": "factory-stable",
         "gauge": "0x5366b49ca046755b3ce4df65264476a90de85a31"
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-0",
+        "pool": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "lpTokenAddress": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+        "type": "factory-twocrypto",
+        "gauge": "0xca185a412018bf7117da2cd62a1c051b39d9fbf5"
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-1",
+        "pool": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "lpTokenAddress": "0x16a3a047fc1d388d5846a73acdb475b11228c299",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-2",
+        "pool": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "lpTokenAddress": "0x6a1c781b7b280e3c8bf04fdfb86c112c9ac70a89",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-3",
+        "pool": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "lpTokenAddress": "0x5f0985a8aad85e82fd592a23cc0501e4345fb18c",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-4",
+        "pool": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "lpTokenAddress": "0x0ff26a978a61d40f6591fc700ef878e96af6c2c0",
+        "type": "factory-twocrypto",
+        "gauge": ""
+    },
+    {
+        "chain": "xdai",
+        "chainId": 100,
+        "id": "factory-twocrypto-5",
+        "pool": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "lpTokenAddress": "0xca546ae6c3b2bb9fba2b6e5eeb0881097cece5b0",
+        "type": "factory-twocrypto",
+        "gauge": ""
     },
     {
         "chain": "xdai",
