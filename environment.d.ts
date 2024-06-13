@@ -2,7 +2,6 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       NODE_ENV: 'development' | 'staging' | 'production';
-      TWITTER_BEARER_TOKEN: string;
     }
   }
 }

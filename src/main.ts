@@ -1,4 +1,4 @@
-import { logAll } from '@/lib/utils/log-all';
+import { logAll } from '@/utils';
 
 async function main() {
   logAll('main');

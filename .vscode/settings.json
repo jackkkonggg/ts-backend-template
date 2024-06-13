@@ -2,11 +2,12 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "always"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
   "editor.detectIndentation": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
