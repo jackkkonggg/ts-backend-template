@@ -21,4 +21,4 @@ const _logger = pino({
   },
 });
 
-export const logger = pinoCaller(_logger, { relativeTo: __dirname, stackAdjustment: 1 });
+export const logger = _logger; // pinoCaller(_logger, { relativeTo: __dirname, stackAdjustment: 1 });
