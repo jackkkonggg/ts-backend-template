@@ -9,5 +9,6 @@
   },
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
-  "typescript.preferences.importModuleSpecifier": "non-relative"
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "cSpell.words": ["pino"]
 }

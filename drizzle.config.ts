@@ -1,3 +1,4 @@
+import env from '@/env';
 import { defineConfig } from 'drizzle-kit';
 
 export default defineConfig({
@@ -5,10 +6,10 @@ export default defineConfig({
   out: './src/db/migrations',
   dialect: 'mysql',
   dbCredentials: {
-    host: process.env.DATABASE_HOST,
-    user: process.env.DATABASE_USER,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE_NAME,
+    host: env.DATABASE_HOST,
+    user: env.DATABASE_USER,
+    password: env.DATABASE_PASSWORD,
+    database: env.DATABASE_NAME,
   },
   introspect: {
     casing: 'camel',
